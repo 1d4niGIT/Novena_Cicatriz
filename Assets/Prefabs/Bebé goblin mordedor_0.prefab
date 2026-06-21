@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5606127865454350981}
   - component: {fileID: 920199316274216930}
-  - component: {fileID: -6731948441665845900}
+  - component: {fileID: 1062315575061902370}
   m_Layer: 0
   m_Name: "Beb\xE9 goblin mordedor_0"
   m_TagString: Untagged
@@ -92,7 +92,7 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!114 &-6731948441665845900
+--- !u!114 &1062315575061902370
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -101,14 +101,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 8913995851759916563}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f6cbd0e8de32b74886c9c0b0d32908a, type: 3}
+  m_Script: {fileID: 11500000, guid: b4ed00473f92de348bf72d69dc3e212c, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Enemigo_bebeDuende
+  m_EditorClassIdentifier: Assembly-CSharp::EstadoEnemigo
   Objetivo: {fileID: 0}
-  radioMovimiento: 3
+  radioDeteccion: 1.5
   radioAtaque: 0.2
-  VelocidadBebeDuende: 0.7
+  VelocidadEnemigo: 0.7
   AtaqueEnemigoDisponible: 1
   "Da\xF1o": 1
   TiempoActual: 0
   TiempoMaximo: 2
+  estado: 1

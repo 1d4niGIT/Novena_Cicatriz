@@ -2,7 +2,7 @@ using UnityEngine;
 public class Jugador : MonoBehaviour
 {
     public float VelocidadJugador = 2f;
-    public float Vida = 100f;
+    public float VidaJugador = 100f;
 
     void Update()
     {
@@ -13,9 +13,9 @@ public class Jugador : MonoBehaviour
     {
         float x = Input.GetAxisRaw("Horizontal");
         float y = Input.GetAxisRaw("Vertical");
-        Vector3 dir = new Vector3(x, y, 0).normalized;
+        Vector3 Dir = new Vector3(x, y, 0).normalized;
 
-        if (dir != Vector3.zero)
-            transform.position += dir * VelocidadJugador * Time.deltaTime;
+        if (Dir != Vector3.zero)
+            transform.position += Dir * VelocidadJugador * Time.deltaTime;
     }
 }

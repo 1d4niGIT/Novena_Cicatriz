@@ -1,10 +1,11 @@
 using UnityEngine;
 
-public class EstadoEnemigo : MonoBehaviour
+public class Enemigo : MonoBehaviour
 {
     public GameObject Objetivo;
-    public float radioDeteccion = 2f;
-    public float radioAtaque = 0.2f;
+    public float VidaEnemigo = 50f;
+    public float RadioDeteccion = 2f;
+    public float RadioAtaque = 0.2f;
     public float VelocidadEnemigo = 1f;
     public bool AtaqueEnemigoDisponible = true;
     public float Daño = 1f;
@@ -12,13 +13,20 @@ public class EstadoEnemigo : MonoBehaviour
     public float TiempoMaximo = 2f;
     public enum EnemigoEnum {None, Idle, Perseguir, Atacar}
     public EnemigoEnum estado = EnemigoEnum.Idle;
+    private Jugador ComponenteJugador; //Jugador es un tipo de referencia a componente (un script)
 
     void Start()
     {
         Objetivo = GameObject.FindGameObjectWithTag("Player");
+        ComponenteJugador = Objetivo.GetComponent<Jugador>();
     }
 
     void Update()
+    {
+        EstadoEnemigo();
+    }
+
+    public void EstadoEnemigo()
     {
         Vector3 ObjetivoPos = Objetivo.transform.position;
         Vector3 MiPos = transform.position;
@@ -31,40 +39,45 @@ public class EstadoEnemigo : MonoBehaviour
         {
             case EnemigoEnum.None:
                 break;
+
             case EnemigoEnum.Idle:
-                { 
-                    if (Vector3.Distance(ObjetivoPos, MiPos) < radioDeteccion)
+                {
+                    if (Vector3.Distance(ObjetivoPos, MiPos) < RadioDeteccion)
                         estado = EnemigoEnum.Perseguir;
                 }
                 break;
+
             case EnemigoEnum.Perseguir:
                 {
                     transform.position += dir * VelocidadEnemigo * Time.deltaTime;
 
-                    if (Vector3.Distance(ObjetivoPos, MiPos) > radioDeteccion)
+                    if (Vector3.Distance(ObjetivoPos, MiPos) > RadioDeteccion)
                         estado = EnemigoEnum.Idle;
 
-                    if (Vector3.Distance(ObjetivoPos, MiPos) < radioAtaque)
+                    if (Vector3.Distance(ObjetivoPos, MiPos) < RadioAtaque)
                         estado = EnemigoEnum.Atacar;
                 }
                 break;
+
             case EnemigoEnum.Atacar:
                 {
                     if (AtaqueEnemigoDisponible)
                     {
-                        Objetivo.GetComponent<Jugador>().Vida -= Daño;
+                        ComponenteJugador.VidaJugador -= Daño;
+                        Debug.Log($"Vida de Shushu: {ComponenteJugador.VidaJugador}");
                         AtaqueEnemigoDisponible = false;
                     }
 
-                    if (Vector3.Distance(ObjetivoPos, MiPos) > radioAtaque)
+                    if (Vector3.Distance(ObjetivoPos, MiPos) > RadioAtaque)
                         estado = EnemigoEnum.Perseguir;
                 }
                 break;
+
             default:
                 break;
         }
-
     }
+
     public void CooldownEnemigo()
     {
         TiempoActual += Time.deltaTime;

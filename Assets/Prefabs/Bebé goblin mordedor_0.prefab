@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1062315575061902370}
   m_Layer: 0
   m_Name: "Beb\xE9 goblin mordedor_0"
-  m_TagString: Untagged
+  m_TagString: BebeDuende
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -105,8 +105,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EstadoEnemigo
   Objetivo: {fileID: 0}
-  radioDeteccion: 1.5
-  radioAtaque: 0.2
+  VidaEnemigo: 50
+  RadioDeteccion: 2
+  RadioAtaque: 0.2
   VelocidadEnemigo: 0.7
   AtaqueEnemigoDisponible: 1
   "Da\xF1o": 1

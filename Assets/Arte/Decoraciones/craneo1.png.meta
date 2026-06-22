@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 60a2d9deea682f84b891abcd2cdbecc4
+guid: 9a10962d0c9729d40933fffca87915fe
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4295806935611970288
-    second: Entrada_0
+      213: -542134263152104547
+    second: craneo1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -74,7 +74,7 @@ TextureImporter:
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: 3
+    textureFormat: 4
     textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Entrada_0
+      name: craneo1_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1280
-        height: 720
+        x: 2
+        y: 1
+        width: 24
+        height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 01d603b2a5a3264c0800000000000000
-      internalID: -4295806935611970288
+      spriteID: d9b204092c3f978f0800000000000000
+      internalID: -542134263152104547
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Entrada_0: -4295806935611970288
+      craneo1_0: -542134263152104547
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

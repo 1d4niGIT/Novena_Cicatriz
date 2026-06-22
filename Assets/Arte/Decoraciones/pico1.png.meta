@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 60a2d9deea682f84b891abcd2cdbecc4
+guid: 5c5089590adbf4d469aab808a93a38ad
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4295806935611970288
-    second: Entrada_0
+      213: -7448038315427954921
+    second: pico1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -74,7 +74,7 @@ TextureImporter:
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: 3
+    textureFormat: 4
     textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Entrada_0
+      name: pico1_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1280
-        height: 720
+        width: 33
+        height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 01d603b2a5a3264c0800000000000000
-      internalID: -4295806935611970288
+      spriteID: 71ffa6f0d9043a890800000000000000
+      internalID: -7448038315427954921
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Entrada_0: -4295806935611970288
+      pico1_0: -7448038315427954921
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

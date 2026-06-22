@@ -11,8 +11,8 @@ public class ControlCámara : MonoBehaviour
 
     public void Seguimiento()
     {
-        Vector3 dir = (Enfocado.transform.position - transform.position).normalized;
-        dir.z = 0;
-        transform.position += dir * VelocidadCamara * Time.deltaTime;
+        Vector3 Dir = (Enfocado.transform.position - transform.position).normalized;
+        Dir.z = 0;
+        transform.position += Dir * VelocidadCamara * Time.deltaTime;
     }
 }

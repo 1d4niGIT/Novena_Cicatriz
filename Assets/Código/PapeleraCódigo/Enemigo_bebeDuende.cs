@@ -30,7 +30,7 @@ public class Enemigo_bebeDuende : MonoBehaviour
             {
                 if (AtaqueEnemigoDisponible)
                 {
-                    Objetivo.GetComponent<Jugador>().Vida -= Daño;
+                    Objetivo.GetComponent<Jugador>().VidaJugador -= Daño;
                     AtaqueEnemigoDisponible = false;
                 }
             }

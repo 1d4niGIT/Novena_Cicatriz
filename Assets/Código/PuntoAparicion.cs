@@ -14,14 +14,14 @@ public class PuntoAparicion : MonoBehaviour
     }
     public void CreayApunta()
     {
-        Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        Vector3 dir = (mousePos - transform.position);
-        dir.z = 0;
-        dir.Normalize();
+        Vector3 MousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        Vector3 Dir = (MousePos - transform.position);
+        Dir.z = 0;
+        Dir.Normalize();
         if (Input.GetMouseButtonDown(0))
         {
             GameObject Proyectil = Instantiate(ProyectilPrefab, transform.position, Quaternion.identity);
-            Proyectil.transform.up = dir;
+            Proyectil.transform.up = Dir;
         }
     }
 }

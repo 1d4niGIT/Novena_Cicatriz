@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 60a2d9deea682f84b891abcd2cdbecc4
+guid: 0d022fe7cb0914743a8edda6b99244e5
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4295806935611970288
-    second: Entrada_0
+      213: 7670517352335042157
+    second: rocas1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -74,7 +74,7 @@ TextureImporter:
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: 3
+    textureFormat: 4
     textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Entrada_0
+      name: rocas1_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1280
-        height: 720
+        x: 2
+        y: 32
+        width: 69
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 01d603b2a5a3264c0800000000000000
-      internalID: -4295806935611970288
+      spriteID: d66666d44e6237a60800000000000000
+      internalID: 7670517352335042157
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Entrada_0: -4295806935611970288
+      rocas1_0: 7670517352335042157
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -4,8 +4,8 @@ public class GeneradorEnemigos : MonoBehaviour
 {
     public GameObject EnemigoPrefab;
     public float GeneradorTiempo = 0.5f;
-    public float Rango = 0.5f;
-    public int MaximodeGeneraciones = 10;
+    public float Rango = 1.2f;
+    public int MaximodeGeneraciones = 7;
 
 
     void Start()
@@ -33,9 +33,11 @@ public class GeneradorEnemigos : MonoBehaviour
     public void GeneradorEnemigo()
     {
         Vector3 DirAleatorio = new Vector3(Random.Range(-1f, 1f), Random.Range(-1f, 1f), 0).normalized;
-        Vector3 LargoTotalDireccion = DirAleatorio * Random.Range(0f, Rango);
+        Vector3 LargoTotalDireccion = DirAleatorio * Random.Range(0.5f, Rango);
         GameObject enemigo = Instantiate(EnemigoPrefab, transform.position, Quaternion.identity);
         enemigo.transform.position += LargoTotalDireccion;
+        enemigo.transform.localScale = new Vector3(0.5f, 0.5f, 0.5f);
+        
     
         //->A
         // enemy.transform.position = fullLenghtDir;//->B

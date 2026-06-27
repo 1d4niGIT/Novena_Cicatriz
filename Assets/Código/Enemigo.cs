@@ -2,13 +2,13 @@ using UnityEngine;
 
 public class Enemigo : MonoBehaviour
 {
-    public GameObject Objetivo;
+    private GameObject Objetivo;
     public float VidaEnemigo = 50f;
     public float RadioDeteccion = 2f;
     public float RadioAtaque = 0.2f;
     public float VelocidadEnemigo = 1f;
     public bool AtaqueEnemigoDisponible = true;
-    public float Daño = 1f;
+    public float DañoEnemigo = 1f;
     public float TiempoActual;
     public float TiempoMaximo = 2f;
     public enum EnemigoEnum {None, Idle, Perseguir, Atacar}
@@ -17,7 +17,7 @@ public class Enemigo : MonoBehaviour
 
     void Start()
     {
-        Objetivo = GameObject.FindGameObjectWithTag("Player");
+        Objetivo = GameObject.FindWithTag("Player");
         ComponenteJugador = Objetivo.GetComponent<Jugador>();
     }
 
@@ -63,7 +63,7 @@ public class Enemigo : MonoBehaviour
                 {
                     if (AtaqueEnemigoDisponible)
                     {
-                        ComponenteJugador.VidaJugador -= Daño;
+                        ComponenteJugador.VidaJugador -= DañoEnemigo;
                         Debug.Log($"Vida de Shushu: {ComponenteJugador.VidaJugador}");
                         AtaqueEnemigoDisponible = false;
                     }

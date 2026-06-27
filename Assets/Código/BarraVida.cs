@@ -4,16 +4,15 @@ using UnityEngine.UI;
 public class BarraVida : MonoBehaviour
 {
     public Image RellenoVida;
-    private Jugador ControlJugador;
+    public Jugador ComponenteJugador;
     private float vidaMaxima;
     void Start()
     {
-        ControlJugador = GameObject.Find("Shushu").GetComponent<Jugador>();
-        vidaMaxima = ControlJugador.VidaJugador;
+        vidaMaxima = ComponenteJugador.VidaJugador;
     }
 
     void Update()
     {
-        RellenoVida.fillAmount = ControlJugador.VidaJugador / vidaMaxima;
+        RellenoVida.fillAmount = ComponenteJugador.VidaJugador / vidaMaxima;
     }
 }

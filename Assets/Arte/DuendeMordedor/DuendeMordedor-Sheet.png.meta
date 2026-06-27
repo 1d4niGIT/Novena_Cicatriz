@@ -1,0 +1,377 @@
+fileFormatVersion: 2
+guid: 4cedf50cbdbcf2a4bb22afc66dc96ad3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2124550824251981556
+    second: DuendeMordedor-Sheet_0
+  - first:
+      213: -5314798671497947834
+    second: DuendeMordedor-Sheet_1
+  - first:
+      213: 3132724335104421177
+    second: DuendeMordedor-Sheet_2
+  - first:
+      213: 2989277500351680443
+    second: DuendeMordedor-Sheet_3
+  - first:
+      213: -141103788040879026
+    second: DuendeMordedor-Sheet_4
+  - first:
+      213: -2456671974159148495
+    second: DuendeMordedor-Sheet_5
+  - first:
+      213: -3211512481592383658
+    second: DuendeMordedor-Sheet_6
+  - first:
+      213: -2726903605213182486
+    second: DuendeMordedor-Sheet_7
+  - first:
+      213: 2602253734845782354
+    second: DuendeMordedor-Sheet_8
+  - first:
+      213: -417410658331557262
+    second: DuendeMordedor-Sheet_9
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DuendeMordedor-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 17
+        width: 43
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fe7dc2e7bbeb7d10800000000000000
+      internalID: 2124550824251981556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuendeMordedor-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 19
+        width: 42
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64595ac64ca0e36b0800000000000000
+      internalID: -5314798671497947834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuendeMordedor-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 16
+        width: 42
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93dee155f2ca97b20800000000000000
+      internalID: 3132724335104421177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuendeMordedor-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 19
+        width: 45
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbf87877c0c0c7920800000000000000
+      internalID: 2989277500351680443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuendeMordedor-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 17
+        width: 43
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e448c553ad2ba0ef0800000000000000
+      internalID: -141103788040879026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuendeMordedor-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 20
+        width: 43
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13a16920bd528edd0800000000000000
+      internalID: -2456671974159148495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuendeMordedor-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 20
+        width: 43
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 657e3fec96a6e63d0800000000000000
+      internalID: -3211512481592383658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuendeMordedor-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 17
+        width: 43
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae5498a6e97182ad0800000000000000
+      internalID: -2726903605213182486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuendeMordedor-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 17
+        width: 43
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2599ae80cff0d1420800000000000000
+      internalID: 2602253734845782354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuendeMordedor-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 17
+        width: 42
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2728fa0c73f053af0800000000000000
+      internalID: -417410658331557262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      DuendeMordedor-Sheet_0: 2124550824251981556
+      DuendeMordedor-Sheet_1: -5314798671497947834
+      DuendeMordedor-Sheet_2: 3132724335104421177
+      DuendeMordedor-Sheet_3: 2989277500351680443
+      DuendeMordedor-Sheet_4: -141103788040879026
+      DuendeMordedor-Sheet_5: -2456671974159148495
+      DuendeMordedor-Sheet_6: -3211512481592383658
+      DuendeMordedor-Sheet_7: -2726903605213182486
+      DuendeMordedor-Sheet_8: 2602253734845782354
+      DuendeMordedor-Sheet_9: -417410658331557262
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

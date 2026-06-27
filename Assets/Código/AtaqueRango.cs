@@ -11,11 +11,11 @@ public class AtaqueRango : MonoBehaviour
     {
         Destroy(gameObject, TiempoVivo);
     }
-    private void OnTriggerEnter2D(Collider2D Choque)
+    private void OnTriggerEnter2D(Collider2D Colisionador)
     {
-        if (Choque.CompareTag("Enemigo"))
+        if (Colisionador.CompareTag("Enemigo"))
         {
-            Enemigo ComponenteEnemigo = Choque.GetComponent<Enemigo>(); //Asigno el componente del objeto que chocó
+            Enemigo ComponenteEnemigo = Colisionador.GetComponent<Enemigo>(); //Asigno el componente del objeto que chocó
             ComponenteEnemigo.VidaEnemigo -= DañoRango;
             Destroy(gameObject);
         }

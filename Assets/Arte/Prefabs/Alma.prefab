@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3694158305080199850}
   - component: {fileID: 8048787216817973622}
+  - component: {fileID: 6022732036625388921}
   m_Layer: 0
   m_Name: Alma
   m_TagString: Untagged
@@ -91,3 +92,19 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &6022732036625388921
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2117696248531450117}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fa28fe895a466547a292bccdfa879c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MovimientoAlma
+  ObjetivoDemonio: {fileID: 0}
+  VelocidadAlma: 0.5
+  RadioDeteccion: 3
+  estado: 1

@@ -6,7 +6,7 @@ public class Enemigo : MonoBehaviour
     public float VidaEnemigo = 50f;
     public float RadioDeteccion = 2f;
     public float RadioAtaque = 0.2f;
-    public float VelocidadEnemigo = 1f;
+    public float VelocidadEnemigo = 0.8f;
     public bool AtaqueEnemigoDisponible = true;
     public float DañoEnemigo = 1f;
     public float TiempoActual;
@@ -32,10 +32,10 @@ public class Enemigo : MonoBehaviour
     {
         Vector3 ObjetivoPos = Objetivo.transform.position;
         Vector3 MiPos = transform.position;
-        Vector3 dir = (ObjetivoPos - MiPos).normalized;
+        Vector3 Dir = (ObjetivoPos - MiPos).normalized;
 
         if (!AtaqueEnemigoDisponible)
-            CooldownEnemigo();
+            CdAtaqueEnemigo();
 
         if (VidaEnemigo <= 0)
             estado = EnemigoEnum.Morir;
@@ -54,7 +54,7 @@ public class Enemigo : MonoBehaviour
 
             case EnemigoEnum.Perseguir:
                 {
-                    transform.position += dir * VelocidadEnemigo * Time.deltaTime;
+                    transform.position += Dir * VelocidadEnemigo * Time.deltaTime;
 
                     if (Vector3.Distance(ObjetivoPos, MiPos) > RadioDeteccion)
                         estado = EnemigoEnum.Idle;
@@ -90,7 +90,7 @@ public class Enemigo : MonoBehaviour
         }
     }
 
-    public void CooldownEnemigo()
+    public void CdAtaqueEnemigo()
     {
         TiempoActual += Time.deltaTime;
         if (TiempoActual >= TiempoMaximo)

@@ -110,7 +110,7 @@ MonoBehaviour:
   VidaEnemigo: 50
   RadioDeteccion: 2
   RadioAtaque: 0.2
-  VelocidadEnemigo: 1
+  VelocidadEnemigo: 0.8
   AtaqueEnemigoDisponible: 1
   "Da\xF1oEnemigo": 1
   TiempoActual: 0

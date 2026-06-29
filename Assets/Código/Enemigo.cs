@@ -11,7 +11,7 @@ public class Enemigo : MonoBehaviour
     public float DañoEnemigo = 1f;
     public float TiempoActual;
     public float TiempoMaximo = 2f;
-    public enum EnemigoEnum {None, Idle, Perseguir, Atacar}
+    public enum EnemigoEnum {None, Idle, Perseguir, Atacar, Morir}
     public EnemigoEnum estado = EnemigoEnum.Idle;
     private Jugador ComponenteJugador; //Jugador es un tipo de referencia a componente (un script)
 
@@ -34,6 +34,8 @@ public class Enemigo : MonoBehaviour
 
         if (!AtaqueEnemigoDisponible)
             CooldownEnemigo();
+        if (VidaEnemigo <= 0)
+            estado = EnemigoEnum.Morir;    
 
         switch (estado)
         {
@@ -70,6 +72,12 @@ public class Enemigo : MonoBehaviour
 
                     if (Vector3.Distance(ObjetivoPos, MiPos) > RadioAtaque)
                         estado = EnemigoEnum.Perseguir;
+                }
+                break;
+
+            case EnemigoEnum.Morir:
+                {
+                    Destroy(gameObject);
                 }
                 break;
 

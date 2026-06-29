@@ -13,8 +13,9 @@ GameObject:
   - component: {fileID: 1062315575061902370}
   - component: {fileID: 7830701722110755534}
   - component: {fileID: -7614218159101638942}
+  - component: {fileID: 3496876382134094608}
   m_Layer: 0
-  m_Name: "Beb\xE9 goblin mordedor_0"
+  m_Name: DuendeMordedor
   m_TagString: Enemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -188,3 +189,16 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.29891682, y: 0.20428336}
   m_EdgeRadius: 0
+--- !u!114 &3496876382134094608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8913995851759916563}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d5c891d88036dd409185a83540d58ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AparicionAlma
+  AlmaPrefab: {fileID: 2117696248531450117, guid: ec2294e62e3dff249abe5b2b461ad020, type: 3}

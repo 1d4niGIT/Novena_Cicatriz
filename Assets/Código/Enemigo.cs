@@ -14,11 +14,13 @@ public class Enemigo : MonoBehaviour
     public enum EnemigoEnum {None, Idle, Perseguir, Atacar, Morir}
     public EnemigoEnum estado = EnemigoEnum.Idle;
     private Jugador ComponenteJugador; //Jugador es un tipo de referencia a componente (un script)
+    private AparicionAlma ComponenteAparicion;
 
     void Start()
     {
         Objetivo = GameObject.FindWithTag("Player");
         ComponenteJugador = Objetivo.GetComponent<Jugador>();
+        ComponenteAparicion = GetComponent<AparicionAlma>();
     }
 
     void Update()
@@ -34,8 +36,9 @@ public class Enemigo : MonoBehaviour
 
         if (!AtaqueEnemigoDisponible)
             CooldownEnemigo();
+
         if (VidaEnemigo <= 0)
-            estado = EnemigoEnum.Morir;    
+            estado = EnemigoEnum.Morir;
 
         switch (estado)
         {
@@ -77,6 +80,7 @@ public class Enemigo : MonoBehaviour
 
             case EnemigoEnum.Morir:
                 {
+                    ComponenteAparicion.Aparicion();
                     Destroy(gameObject);
                 }
                 break;

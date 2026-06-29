@@ -40,7 +40,7 @@ public class GeneradorEnemigos : MonoBehaviour
         
     
         //->A
-        // enemy.transform.position = fullLenghtDir;//->B
+        // enemy.transform.position = LargoTotalDireccion;//->B
 
     }
 }

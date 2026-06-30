@@ -321,6 +321,63 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!1001 &340312258
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5606127865454350981, guid: 7b37a07593f869b4aabc4f7b0b7c809c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.35028404
+      objectReference: {fileID: 0}
+    - target: {fileID: 5606127865454350981, guid: 7b37a07593f869b4aabc4f7b0b7c809c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.455534
+      objectReference: {fileID: 0}
+    - target: {fileID: 5606127865454350981, guid: 7b37a07593f869b4aabc4f7b0b7c809c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5606127865454350981, guid: 7b37a07593f869b4aabc4f7b0b7c809c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5606127865454350981, guid: 7b37a07593f869b4aabc4f7b0b7c809c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5606127865454350981, guid: 7b37a07593f869b4aabc4f7b0b7c809c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5606127865454350981, guid: 7b37a07593f869b4aabc4f7b0b7c809c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5606127865454350981, guid: 7b37a07593f869b4aabc4f7b0b7c809c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5606127865454350981, guid: 7b37a07593f869b4aabc4f7b0b7c809c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5606127865454350981, guid: 7b37a07593f869b4aabc4f7b0b7c809c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8913995851759916563, guid: 7b37a07593f869b4aabc4f7b0b7c809c, type: 3}
+      propertyPath: m_Name
+      value: DuendeMordedor (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7b37a07593f869b4aabc4f7b0b7c809c, type: 3}
 --- !u!1 &389091746
 GameObject:
   m_ObjectHideFlags: 0
@@ -1712,7 +1769,7 @@ GameObject:
   - component: {fileID: 823165282}
   m_Layer: 0
   m_Name: Cabeza_0
-  m_TagString: Untagged
+  m_TagString: CabezaDemonio
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2139,6 +2196,63 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!1001 &1325942941
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5606127865454350981, guid: 7b37a07593f869b4aabc4f7b0b7c809c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.08439481
+      objectReference: {fileID: 0}
+    - target: {fileID: 5606127865454350981, guid: 7b37a07593f869b4aabc4f7b0b7c809c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.028514
+      objectReference: {fileID: 0}
+    - target: {fileID: 5606127865454350981, guid: 7b37a07593f869b4aabc4f7b0b7c809c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5606127865454350981, guid: 7b37a07593f869b4aabc4f7b0b7c809c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5606127865454350981, guid: 7b37a07593f869b4aabc4f7b0b7c809c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5606127865454350981, guid: 7b37a07593f869b4aabc4f7b0b7c809c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5606127865454350981, guid: 7b37a07593f869b4aabc4f7b0b7c809c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5606127865454350981, guid: 7b37a07593f869b4aabc4f7b0b7c809c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5606127865454350981, guid: 7b37a07593f869b4aabc4f7b0b7c809c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5606127865454350981, guid: 7b37a07593f869b4aabc4f7b0b7c809c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8913995851759916563, guid: 7b37a07593f869b4aabc4f7b0b7c809c, type: 3}
+      propertyPath: m_Name
+      value: DuendeMordedor
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7b37a07593f869b4aabc4f7b0b7c809c, type: 3}
 --- !u!1 &1342302873
 GameObject:
   m_ObjectHideFlags: 0
@@ -2230,63 +2344,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!1001 &1366782212
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 5606127865454350981, guid: 7b37a07593f869b4aabc4f7b0b7c809c, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 1.5385165
-      objectReference: {fileID: 0}
-    - target: {fileID: 5606127865454350981, guid: 7b37a07593f869b4aabc4f7b0b7c809c, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -1.0324494
-      objectReference: {fileID: 0}
-    - target: {fileID: 5606127865454350981, guid: 7b37a07593f869b4aabc4f7b0b7c809c, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5606127865454350981, guid: 7b37a07593f869b4aabc4f7b0b7c809c, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5606127865454350981, guid: 7b37a07593f869b4aabc4f7b0b7c809c, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5606127865454350981, guid: 7b37a07593f869b4aabc4f7b0b7c809c, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5606127865454350981, guid: 7b37a07593f869b4aabc4f7b0b7c809c, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5606127865454350981, guid: 7b37a07593f869b4aabc4f7b0b7c809c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5606127865454350981, guid: 7b37a07593f869b4aabc4f7b0b7c809c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5606127865454350981, guid: 7b37a07593f869b4aabc4f7b0b7c809c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8913995851759916563, guid: 7b37a07593f869b4aabc4f7b0b7c809c, type: 3}
-      propertyPath: m_Name
-      value: "Beb\xE9 goblin mordedor_0"
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 7b37a07593f869b4aabc4f7b0b7c809c, type: 3}
 --- !u!1 &1366793721
 GameObject:
   m_ObjectHideFlags: 0
@@ -2469,6 +2526,63 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!1001 &1423431975
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5606127865454350981, guid: 7b37a07593f869b4aabc4f7b0b7c809c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.0415432
+      objectReference: {fileID: 0}
+    - target: {fileID: 5606127865454350981, guid: 7b37a07593f869b4aabc4f7b0b7c809c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.9676707
+      objectReference: {fileID: 0}
+    - target: {fileID: 5606127865454350981, guid: 7b37a07593f869b4aabc4f7b0b7c809c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5606127865454350981, guid: 7b37a07593f869b4aabc4f7b0b7c809c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5606127865454350981, guid: 7b37a07593f869b4aabc4f7b0b7c809c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5606127865454350981, guid: 7b37a07593f869b4aabc4f7b0b7c809c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5606127865454350981, guid: 7b37a07593f869b4aabc4f7b0b7c809c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5606127865454350981, guid: 7b37a07593f869b4aabc4f7b0b7c809c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5606127865454350981, guid: 7b37a07593f869b4aabc4f7b0b7c809c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5606127865454350981, guid: 7b37a07593f869b4aabc4f7b0b7c809c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8913995851759916563, guid: 7b37a07593f869b4aabc4f7b0b7c809c, type: 3}
+      propertyPath: m_Name
+      value: DuendeMordedor (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7b37a07593f869b4aabc4f7b0b7c809c, type: 3}
 --- !u!1 &1644398452
 GameObject:
   m_ObjectHideFlags: 0
@@ -2955,4 +3069,6 @@ SceneRoots:
   - {fileID: 604475440}
   - {fileID: 690057155}
   - {fileID: 1975621107}
-  - {fileID: 1366782212}
+  - {fileID: 1325942941}
+  - {fileID: 1423431975}
+  - {fileID: 340312258}

@@ -4,8 +4,8 @@
 TagManager:
   serializedVersion: 3
   tags:
-  - BebeDuende
   - Enemigo
+  - CabezaDemonio
   layers:
   - Default
   - TransparentFX

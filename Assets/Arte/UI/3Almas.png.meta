@@ -1,13 +1,16 @@
 fileFormatVersion: 2
-guid: 67e4dbb6c1a650142b43aad26c0a6207
+guid: 2ac6d0f90cf01a2438a2092a6c21eb96
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 9161072682681619425
-    second: BarraVida_0
+      213: 3064905374512953986
+    second: 3Almas_0
   - first:
-      213: -2836200825452750094
-    second: BarraVida_1
+      213: 6424772621978963917
+    second: 3Almas_1
+  - first:
+      213: 6940580987052766253
+    second: 3Almas_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -49,7 +52,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -78,7 +81,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: 4
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -103,13 +106,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: BarraVida_0
+      name: 3Almas_0
       rect:
         serializedVersion: 2
-        x: 3
-        y: 1
-        width: 79
-        height: 90
+        x: 2
+        y: 0
+        width: 10
+        height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -118,20 +121,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1e3d5c4411ba22f70800000000000000
-      internalID: 9161072682681619425
+      spriteID: 28ab706133bb88a20800000000000000
+      internalID: 3064905374512953986
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BarraVida_1
+      name: 3Almas_1
       rect:
         serializedVersion: 2
-        x: 66
-        y: 25
-        width: 125
-        height: 35
+        x: 13
+        y: 0
+        width: 10
+        height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,8 +143,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2fa1837406ac3a8d0800000000000000
-      internalID: -2836200825452750094
+      spriteID: dcf06b7e8a0692950800000000000000
+      internalID: 6424772621978963917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3Almas_2
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 0
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d243c1c82a5e15060800000000000000
+      internalID: 6940580987052766253
       vertices: []
       indices: 
       edges: []
@@ -150,7 +175,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -160,8 +185,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      BarraVida_0: 9161072682681619425
-      BarraVida_1: -2836200825452750094
+      3Almas_0: 3064905374512953986
+      3Almas_1: 6424772621978963917
+      3Almas_2: 6940580987052766253
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: 67e4dbb6c1a650142b43aad26c0a6207
+guid: 2eb61b70aa52b1745bc0b93d8ebc9b9a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 9161072682681619425
-    second: BarraVida_0
-  - first:
-      213: -2836200825452750094
-    second: BarraVida_1
+      213: 3751908553061368107
+    second: BarraSaciedad_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -103,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: BarraVida_0
+      name: BarraSaciedad_0
       rect:
         serializedVersion: 2
-        x: 3
-        y: 1
-        width: 79
-        height: 90
+        x: 2
+        y: 2
+        width: 37
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -118,30 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1e3d5c4411ba22f70800000000000000
-      internalID: 9161072682681619425
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BarraVida_1
-      rect:
-        serializedVersion: 2
-        x: 66
-        y: 25
-        width: 125
-        height: 35
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2fa1837406ac3a8d0800000000000000
-      internalID: -2836200825452750094
+      spriteID: b2109f653f4711430800000000000000
+      internalID: 3751908553061368107
       vertices: []
       indices: 
       edges: []
@@ -160,8 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      BarraVida_0: 9161072682681619425
-      BarraVida_1: -2836200825452750094
+      BarraSaciedad_0: 3751908553061368107
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

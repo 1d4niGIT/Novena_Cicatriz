@@ -6,15 +6,15 @@ public class Alma : MonoBehaviour
     public float VelocidadAlma = 0.5f;
     public float RadioDeteccion = 3f;
 
-    public float FrecuenciaSerpenteo = 5f;
-    public float AmplitudSerpenteo = 1.5f;
-    private float offsetAleatorio;
+    public float TiempoCambioDireccion = 0.5f; // Cada cuánto cambia de lado
+    public float FuerzaSerpenteo = 1.5f;
+    private float Temporizador;
+    private float DireccionLateral = 1f;
     public enum AlmaEnum {None, Idle, Perseguir}
     public AlmaEnum estado = AlmaEnum.Idle;
     void Start()
     {
         ObjetivoDemonio = GameObject.FindWithTag("CabezaDemonio");
-        offsetAleatorio = Random.Range(0f, Mathf.PI * 2f);
     }
 
     void Update()
@@ -41,11 +41,19 @@ public class Alma : MonoBehaviour
 
             case AlmaEnum.Perseguir:
                 {
-                    Vector3 perpendicular = new Vector3(-Dir.y, Dir.x, 0f);
-                    float serpenteo = Mathf.Sin((Time.time + offsetAleatorio) * FrecuenciaSerpenteo) * AmplitudSerpenteo;
-                    Vector3 movimientoFinal = (Dir * VelocidadAlma) + (perpendicular * serpenteo);
-                    transform.position += movimientoFinal * Time.deltaTime;
-                    //transform.position += Dir * VelocidadAlma * Time.deltaTime;
+                    // Cambiamos de lado cada cierto tiempo
+                    Temporizador += Time.deltaTime;
+
+                    if (Temporizador >= TiempoCambioDireccion)
+                    {
+                        DireccionLateral *= -1f; // invierte el lado
+                        Temporizador = 0f;
+                    }
+
+                    Vector3 Perpendicular = new Vector3(-Dir.y, Dir.x, 0f);
+                    Vector3 MovimientoFinal = (Dir * VelocidadAlma) + (Perpendicular * DireccionLateral * FuerzaSerpenteo);
+
+                    transform.position += MovimientoFinal * Time.deltaTime;
 
                     if (Vector3.Distance(DemonioPos, MiPos) > RadioDeteccion)
                         estado = AlmaEnum.Idle;

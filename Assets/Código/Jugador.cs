@@ -1,7 +1,7 @@
 using UnityEngine;
 public class Jugador : MonoBehaviour
 {
-    public float VelocidadJugador = 2f;
+    public float VelocidadJugador = 1.6f;
     public float VidaJugador = 100f;
     public float VidaMaximaJugador = 100f;
     public BarraVida BarraDeVida;

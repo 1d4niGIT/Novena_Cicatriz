@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 733607f3635d49246b6b0f0175125c1f
+guid: f65ee043961b3eb4ea237d5a30e6c9df
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5168228057612586181
-    second: Escena1_0
+      213: -4178182432772724017
+    second: Madera4_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Escena1_0
+      name: Madera4_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1280
-        height: 855
+        x: 5
+        y: 7
+        width: 122
+        height: 27
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b337bcbc6f3c648b0800000000000000
-      internalID: -5168228057612586181
+      spriteID: fcaedcfd63d1406c0800000000000000
+      internalID: -4178182432772724017
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Escena1_0: -5168228057612586181
+      Madera4_0: -4178182432772724017
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

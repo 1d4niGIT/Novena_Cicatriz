@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 733607f3635d49246b6b0f0175125c1f
+guid: cfdcdcb7ffda41f47b82c1f20004ac9d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5168228057612586181
-    second: Escena1_0
+      213: -2025434215126795343
+    second: Cuerda2_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Escena1_0
+      name: Cuerda2_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1280
-        height: 855
+        x: 1
+        y: 4
+        width: 23
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b337bcbc6f3c648b0800000000000000
-      internalID: -5168228057612586181
+      spriteID: 1bbf173005634e3e0800000000000000
+      internalID: -2025434215126795343
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Escena1_0: -5168228057612586181
+      Cuerda2_0: -2025434215126795343
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

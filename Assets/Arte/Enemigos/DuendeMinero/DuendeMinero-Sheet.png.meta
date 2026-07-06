@@ -1,10 +1,22 @@
 fileFormatVersion: 2
-guid: 733607f3635d49246b6b0f0175125c1f
+guid: 450ea78c3ef91744fa63c6f9a6c45438
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5168228057612586181
-    second: Escena1_0
+      213: -7595774109121802920
+    second: DuendeMinero-Sheet_0
+  - first:
+      213: 2094303230065273569
+    second: DuendeMinero-Sheet_1
+  - first:
+      213: 188674816192359063
+    second: DuendeMinero-Sheet_2
+  - first:
+      213: 6467562624030301307
+    second: DuendeMinero-Sheet_3
+  - first:
+      213: -8505054133626647330
+    second: DuendeMinero-Sheet_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +112,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Escena1_0
+      name: DuendeMinero-Sheet_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1280
-        height: 855
+        x: 41
+        y: 19
+        width: 37
+        height: 74
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +127,96 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b337bcbc6f3c648b0800000000000000
-      internalID: -5168228057612586181
+      spriteID: 85d8faf11b3669690800000000000000
+      internalID: -7595774109121802920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuendeMinero-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 18
+        width: 37
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ea6eff01b5701d10800000000000000
+      internalID: 2094303230065273569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuendeMinero-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 14
+        width: 37
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79a2535eebe4e9200800000000000000
+      internalID: 188674816192359063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuendeMinero-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 16
+        width: 37
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7c5bef90f561c950800000000000000
+      internalID: 6467562624030301307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DuendeMinero-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 15
+        width: 37
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edc47b1c35af7f980800000000000000
+      internalID: -8505054133626647330
       vertices: []
       indices: 
       edges: []
@@ -135,7 +235,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Escena1_0: -5168228057612586181
+      DuendeMinero-Sheet_0: -7595774109121802920
+      DuendeMinero-Sheet_1: 2094303230065273569
+      DuendeMinero-Sheet_2: 188674816192359063
+      DuendeMinero-Sheet_3: 6467562624030301307
+      DuendeMinero-Sheet_4: -8505054133626647330
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

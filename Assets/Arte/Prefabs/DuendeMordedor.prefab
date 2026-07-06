@@ -186,7 +186,7 @@ MonoBehaviour:
   VidaEnemigo: 50
   VidaMaximaEnemigo: 50
   RadioDeteccion: 2
-  RadioAtaque: 0.2
+  RadioAtaque: 0.3
   VelocidadEnemigo: 0.8
   AtaqueEnemigoDisponible: 1
   "Da\xF1oEnemigo": 1

@@ -17,7 +17,7 @@ public class Alma : MonoBehaviour
         ObjetivoDemonio = GameObject.FindWithTag("CabezaDemonio");
     }
 
-    void Update()
+    void FixedUpdate()
     {
         EstadoAlma();
     }

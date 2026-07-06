@@ -281,6 +281,7 @@ GameObject:
   - component: {fileID: 8219555291166260898}
   - component: {fileID: 6399018067795401275}
   - component: {fileID: 5380959679043939692}
+  - component: {fileID: 7525263288574822162}
   m_Layer: 0
   m_Name: DuendeMinero
   m_TagString: Enemigo
@@ -351,10 +352,10 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 8
   m_MaskInteraction: 0
   m_Sprite: {fileID: -7595774109121802920, guid: 450ea78c3ef91744fa63c6f9a6c45438, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.6415094, g: 0.6415094, b: 0.6415094, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -472,3 +473,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AparicionAlma
   AlmaPrefab: {fileID: 2117696248531450117, guid: ec2294e62e3dff249abe5b2b461ad020, type: 3}
+--- !u!95 &7525263288574822162
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7843968133542959414}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 9d923e966ae39bd45a7533dd13316d76, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0

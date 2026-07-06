@@ -3,6 +3,8 @@ public class Jugador : MonoBehaviour
 {
     public float VelocidadJugador = 2f;
     public float VidaJugador = 100f;
+    public float VidaMaximaJugador = 100f;
+    public BarraVida BarraDeVida;
 
     void Update()
     {
@@ -17,5 +19,11 @@ public class Jugador : MonoBehaviour
 
         if (Dir != Vector3.zero)
             transform.position += Dir * VelocidadJugador * Time.deltaTime;
+    }
+    public void DañoRecibidoJugador(float Cantidad)
+    {
+        VidaJugador -= Cantidad;
+        Debug.Log($"Vida de Shushu: {VidaJugador}");
+        BarraDeVida.ActualizarBarra(VidaJugador, VidaMaximaJugador);
     }
 }

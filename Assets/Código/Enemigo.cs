@@ -4,13 +4,15 @@ public class Enemigo : MonoBehaviour
 {
     private GameObject Objetivo;
     public float VidaEnemigo = 50f;
+    public float VidaMaximaEnemigo = 50f;
     public float RadioDeteccion = 2f;
     public float RadioAtaque = 0.2f;
     public float VelocidadEnemigo = 0.8f;
     public bool AtaqueEnemigoDisponible = true;
     public float DañoEnemigo = 1f;
+    public BarraVida BarraDeVida;
     public float TiempoActual;
-    public float TiempoMaximo = 2f;
+    public float TiempoMaximoAtaque = 2f;
     public enum EnemigoEnum {None, Idle, Perseguir, Atacar, Morir}
     public EnemigoEnum estado = EnemigoEnum.Idle;
     private Jugador ComponenteJugador; //Jugador es un tipo de referencia a componente (un script)
@@ -68,8 +70,7 @@ public class Enemigo : MonoBehaviour
                 {
                     if (AtaqueEnemigoDisponible)
                     {
-                        ComponenteJugador.VidaJugador -= DañoEnemigo;
-                        Debug.Log($"Vida de Shushu: {ComponenteJugador.VidaJugador}");
+                        ComponenteJugador.DañoRecibidoJugador(DañoEnemigo);
                         AtaqueEnemigoDisponible = false;
                     }
 
@@ -93,10 +94,15 @@ public class Enemigo : MonoBehaviour
     public void CdAtaqueEnemigo()
     {
         TiempoActual += Time.deltaTime;
-        if (TiempoActual >= TiempoMaximo)
+        if (TiempoActual >= TiempoMaximoAtaque)
         {
             AtaqueEnemigoDisponible = true;
             TiempoActual = 0;
         }
+    }
+    public void DañoRecibidoEnemigo(float Cantidad)
+    {
+        VidaEnemigo -= Cantidad;
+        BarraDeVida.ActualizarBarra(VidaEnemigo, VidaMaximaEnemigo);
     }
 }

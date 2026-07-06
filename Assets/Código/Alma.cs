@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class MovimientoAlma : MonoBehaviour
+public class Alma : MonoBehaviour
 {
     public GameObject ObjetivoDemonio;
     public float VelocidadAlma = 0.5f;

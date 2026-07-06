@@ -16,7 +16,7 @@ public class AtaqueRango : MonoBehaviour
         if (Colisionador.CompareTag("Enemigo"))
         {
             Enemigo ComponenteEnemigo = Colisionador.GetComponent<Enemigo>(); //Asigno el componente del objeto que chocó
-            ComponenteEnemigo.VidaEnemigo -= DañoRango;
+            ComponenteEnemigo.DañoRecibidoEnemigo(DañoRango);
             Destroy(gameObject);
         }
         

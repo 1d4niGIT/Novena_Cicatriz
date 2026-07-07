@@ -1,13 +1,25 @@
 fileFormatVersion: 2
-guid: 674b5a13bf8e6304bbec4c9221c666ac
+guid: 26014f66feb21d74682bee63c7b6bae0
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7805958804155220183
-    second: DemonioCollarAtaqueMelee2_0
+      213: -6933498006502882324
+    second: DemonioCollarCuerpo_0
   - first:
-      213: 3536052227717574450
-    second: DemonioCollarAtaqueMelee2_1
+      213: -6198954374321381737
+    second: DemonioCollarCuerpo_1
+  - first:
+      213: 8618539714247418699
+    second: DemonioCollarCuerpo_2
+  - first:
+      213: 8536705506340525613
+    second: DemonioCollarCuerpo_3
+  - first:
+      213: -426706789488761976
+    second: DemonioCollarCuerpo_4
+  - first:
+      213: 6180825362124010795
+    second: DemonioCollarCuerpo_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -103,13 +115,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: DemonioCollarAtaqueMelee2_0
+      name: DemonioCollarCuerpo_0
       rect:
         serializedVersion: 2
-        x: 50
-        y: 40
-        width: 9
-        height: 13
+        x: 25
+        y: 20
+        width: 46
+        height: 91
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -118,20 +130,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 92fbefa43d9aba390800000000000000
-      internalID: -7805958804155220183
+      spriteID: ce3448f5c4447cf90800000000000000
+      internalID: -6933498006502882324
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DemonioCollarAtaqueMelee2_1
+      name: DemonioCollarCuerpo_1
       rect:
         serializedVersion: 2
-        x: 55
-        y: 35
-        width: 16
-        height: 16
+        x: 117
+        y: 20
+        width: 50
+        height: 95
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,8 +152,96 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 23fa55c24c4921130800000000000000
-      internalID: 3536052227717574450
+      spriteID: 79e58bb07d3e8f9a0800000000000000
+      internalID: -6198954374321381737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonioCollarCuerpo_2
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 20
+        width: 48
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b43605605343b9770800000000000000
+      internalID: 8618539714247418699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonioCollarCuerpo_3
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 20
+        width: 46
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d265c89bd68787670800000000000000
+      internalID: 8536705506340525613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonioCollarCuerpo_4
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 20
+        width: 46
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 883664d8f68041af0800000000000000
+      internalID: -426706789488761976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonioCollarCuerpo_5
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 20
+        width: 46
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2570206be3b6c550800000000000000
+      internalID: 6180825362124010795
       vertices: []
       indices: 
       edges: []
@@ -160,8 +260,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      DemonioCollarAtaqueMelee2_0: -7805958804155220183
-      DemonioCollarAtaqueMelee2_1: 3536052227717574450
+      DemonioCollarCuerpo_0: -6933498006502882324
+      DemonioCollarCuerpo_1: -6198954374321381737
+      DemonioCollarCuerpo_2: 8618539714247418699
+      DemonioCollarCuerpo_3: 8536705506340525613
+      DemonioCollarCuerpo_4: -426706789488761976
+      DemonioCollarCuerpo_5: 6180825362124010795
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

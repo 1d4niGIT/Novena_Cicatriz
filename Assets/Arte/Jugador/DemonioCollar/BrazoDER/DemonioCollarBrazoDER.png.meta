@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: d354dc7847811024ca4f54de3e8beb56
+guid: d16c67a70c27bae418097a647b06c737
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2622600302830415921
-    second: DemonioCollarBrazoDER1_0
+      213: 7671016855014119613
+    second: DemonioCollarBrazoDER_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,7 +100,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: DemonioCollarBrazoDER1_0
+      name: DemonioCollarBrazoDER_0
       rect:
         serializedVersion: 2
         x: 20
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 130f90e8419556420800000000000000
-      internalID: 2622600302830415921
+      spriteID: db89625df2de47a60800000000000000
+      internalID: 7671016855014119613
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      DemonioCollarBrazoDER1_0: 2622600302830415921
+      DemonioCollarBrazoDER_0: 7671016855014119613
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

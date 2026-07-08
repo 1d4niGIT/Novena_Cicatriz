@@ -35,4 +35,5 @@ public class Jugador : MonoBehaviour
         Debug.Log($"Vida de Shushu: {VidaJugador}");
         BarraDeVida.ActualizarBarra(VidaJugador, VidaMaximaJugador);
     }
+   
 }

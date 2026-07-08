@@ -6,6 +6,7 @@ public class AnimacionesShushuYDemonio : MonoBehaviour
     public Animator Animacion;
     private bool Moviendose;
     private Jugador ComponenteJugador;
+    private bool EstaMuerto = false;
     void Start()
     {
         ComponenteJugador = GetComponentInParent<Jugador>();
@@ -14,6 +15,7 @@ public class AnimacionesShushuYDemonio : MonoBehaviour
     void Update()
     {
         Animar(ComponenteJugador.X, ComponenteJugador.Y, ComponenteJugador.Entrada);
+        VerificarMuerte();
     }
 
     private void Animar(float X, float Y, Vector3 Entrada)
@@ -34,5 +36,15 @@ public class AnimacionesShushuYDemonio : MonoBehaviour
         }
 
         Animacion.SetBool("Moviendose", Moviendose);
+    }
+    public void VerificarMuerte()
+    {
+        {
+            if ((ComponenteJugador.VidaJugador <= 0) && (!EstaMuerto))
+            {
+                Animacion.SetTrigger("Muerto");
+                EstaMuerto = true;
+            }
+        }
     }
 }

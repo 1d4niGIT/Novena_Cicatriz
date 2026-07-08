@@ -17,7 +17,8 @@ public class Enemigo : MonoBehaviour
     public EnemigoEnum estado = EnemigoEnum.Idle;
     private Jugador ComponenteJugador; //Jugador es un tipo de referencia a componente (un script)
     private AparicionAlma ComponenteAparicion;
-
+    public Animator Animacion;
+   
     void Start()
     {
         Objetivo = GameObject.FindWithTag("Player");
@@ -49,6 +50,8 @@ public class Enemigo : MonoBehaviour
 
             case EnemigoEnum.Idle:
                 {
+                    Animacion.SetBool("Perseguir", false);
+
                     if (Vector3.Distance(ObjetivoPos, MiPos) < RadioDeteccion)
                         estado = EnemigoEnum.Perseguir;
                 }
@@ -56,6 +59,8 @@ public class Enemigo : MonoBehaviour
 
             case EnemigoEnum.Perseguir:
                 {
+                    Animacion.SetBool("Perseguir", true);
+
                     transform.position += Dir * VelocidadEnemigo * Time.deltaTime;
 
                     if (Vector3.Distance(ObjetivoPos, MiPos) > RadioDeteccion)
@@ -68,6 +73,8 @@ public class Enemigo : MonoBehaviour
 
             case EnemigoEnum.Atacar:
                 {
+                    Animacion.SetTrigger("Atacar");
+
                     if (AtaqueEnemigoDisponible)
                     {
                         ComponenteJugador.DañoRecibidoJugador(DañoEnemigo);

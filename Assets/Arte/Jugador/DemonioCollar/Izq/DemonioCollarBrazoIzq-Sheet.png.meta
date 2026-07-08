@@ -1,0 +1,767 @@
+fileFormatVersion: 2
+guid: 433fd551ccc79d64fb4d63faa16ab25f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3588441488056821966
+    second: DemonioCollarBrazoIzq-Sheet_0
+  - first:
+      213: 1945172717861443667
+    second: DemonioCollarBrazoIzq-Sheet_1
+  - first:
+      213: 4261455877302119116
+    second: DemonioCollarBrazoIzq-Sheet_2
+  - first:
+      213: 7748696811115667271
+    second: DemonioCollarBrazoIzq-Sheet_3
+  - first:
+      213: -1528248674089809611
+    second: DemonioCollarBrazoIzq-Sheet_4
+  - first:
+      213: -1461299771695183261
+    second: DemonioCollarBrazoIzq-Sheet_5
+  - first:
+      213: -789277426982107839
+    second: DemonioCollarBrazoIzq-Sheet_6
+  - first:
+      213: 4565680782561379453
+    second: DemonioCollarBrazoIzq-Sheet_7
+  - first:
+      213: -2117674573341148
+    second: DemonioCollarBrazoIzq-Sheet_8
+  - first:
+      213: -2883967397963340992
+    second: DemonioCollarBrazoIzq-Sheet_9
+  - first:
+      213: -2802468795661339218
+    second: DemonioCollarBrazoIzq-Sheet_10
+  - first:
+      213: -966850318387409517
+    second: DemonioCollarBrazoIzq-Sheet_11
+  - first:
+      213: -6699626794788444604
+    second: DemonioCollarBrazoIzq-Sheet_12
+  - first:
+      213: 4270979634046015071
+    second: DemonioCollarBrazoIzq-Sheet_13
+  - first:
+      213: -2677151616653253764
+    second: DemonioCollarBrazoIzq-Sheet_14
+  - first:
+      213: -6233760970360287646
+    second: DemonioCollarBrazoIzq-Sheet_15
+  - first:
+      213: 3125552916257222772
+    second: DemonioCollarBrazoIzq-Sheet_16
+  - first:
+      213: 1844684726451968129
+    second: DemonioCollarBrazoIzq-Sheet_17
+  - first:
+      213: -1929240740113658601
+    second: DemonioCollarBrazoIzq-Sheet_18
+  - first:
+      213: -5018325421403586606
+    second: DemonioCollarBrazoIzq-Sheet_19
+  - first:
+      213: -8342099331237813859
+    second: DemonioCollarBrazoIzq-Sheet_20
+  - first:
+      213: -686846457779518158
+    second: DemonioCollarBrazoIzq-Sheet_21
+  - first:
+      213: 528212910460453616
+    second: DemonioCollarBrazoIzq-Sheet_22
+  - first:
+      213: 4234445986366199799
+    second: DemonioCollarBrazoIzq-Sheet_23
+  - first:
+      213: 6376371690885611453
+    second: DemonioCollarBrazoIzq-Sheet_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DemonioCollarBrazoIzq-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 26
+        width: 15
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec8a6e06584bcc130800000000000000
+      internalID: 3588441488056821966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonioCollarBrazoIzq-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 35
+        width: 35
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35899eae744aefa10800000000000000
+      internalID: 1945172717861443667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonioCollarBrazoIzq-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 40
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccae790da8bb32b30800000000000000
+      internalID: 4261455877302119116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonioCollarBrazoIzq-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 35
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74f50c202b6e88b60800000000000000
+      internalID: 7748696811115667271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonioCollarBrazoIzq-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 41
+        width: 37
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5394a6c8de19acae0800000000000000
+      internalID: -1528248674089809611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonioCollarBrazoIzq-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 24
+        width: 38
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36acfb5999b68bbe0800000000000000
+      internalID: -1461299771695183261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonioCollarBrazoIzq-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 24
+        width: 38
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1454f77ac5ceb05f0800000000000000
+      internalID: -789277426982107839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonioCollarBrazoIzq-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 24
+        width: 38
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7406625b7e8c5f30800000000000000
+      internalID: 4565680782561379453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonioCollarBrazoIzq-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 26
+        width: 15
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42e5e477cf978fff0800000000000000
+      internalID: -2117674573341148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonioCollarBrazoIzq-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 25
+        width: 15
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04366947ee61af7d0800000000000000
+      internalID: -2883967397963340992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonioCollarBrazoIzq-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 32
+        width: 41
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea53d7c7a71ab19d0800000000000000
+      internalID: -2802468795661339218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonioCollarBrazoIzq-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 31
+        width: 41
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39d8b8d02ce0592f0800000000000000
+      internalID: -966850318387409517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonioCollarBrazoIzq-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 32
+        width: 41
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44622f02de42603a0800000000000000
+      internalID: -6699626794788444604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonioCollarBrazoIzq-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 31
+        width: 41
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f569d3a3951954b30800000000000000
+      internalID: 4270979634046015071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonioCollarBrazoIzq-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 1175
+        y: 29
+        width: 15
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c73258fe9c8d8dad0800000000000000
+      internalID: -2677151616653253764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonioCollarBrazoIzq-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 1271
+        y: 28
+        width: 15
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26e0bf2ec6b3d79a0800000000000000
+      internalID: -6233760970360287646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonioCollarBrazoIzq-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 1377
+        y: 32
+        width: 38
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 470b23441d1306b20800000000000000
+      internalID: 3125552916257222772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonioCollarBrazoIzq-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 1473
+        y: 33
+        width: 40
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18812c23cf2a99910800000000000000
+      internalID: 1844684726451968129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonioCollarBrazoIzq-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 1575
+        y: 34
+        width: 40
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71d4057b4c5f935e0800000000000000
+      internalID: -1929240740113658601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonioCollarBrazoIzq-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 1657
+        y: 32
+        width: 38
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2df3de11e935b5ab0800000000000000
+      internalID: -5018325421403586606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonioCollarBrazoIzq-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 1751
+        y: 33
+        width: 40
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d91eb884bd8ea3c80800000000000000
+      internalID: -8342099331237813859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonioCollarBrazoIzq-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 1841
+        y: 34
+        width: 40
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23501d429c4d776f0800000000000000
+      internalID: -686846457779518158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonioCollarBrazoIzq-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 1944
+        y: 48
+        width: 27
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f245cde7d6945700800000000000000
+      internalID: 528212910460453616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonioCollarBrazoIzq-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 2038
+        y: 47
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f79fe58036c3ca30800000000000000
+      internalID: 4234445986366199799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonioCollarBrazoIzq-Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 2118
+        y: 34
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbff717f44c6d7850800000000000000
+      internalID: 6376371690885611453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 1686f7569a850ef4fbf24f8dbcec2312
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      DemonioCollarBrazoIzq-Sheet_0: 3588441488056821966
+      DemonioCollarBrazoIzq-Sheet_1: 1945172717861443667
+      DemonioCollarBrazoIzq-Sheet_10: -2802468795661339218
+      DemonioCollarBrazoIzq-Sheet_11: -966850318387409517
+      DemonioCollarBrazoIzq-Sheet_12: -6699626794788444604
+      DemonioCollarBrazoIzq-Sheet_13: 4270979634046015071
+      DemonioCollarBrazoIzq-Sheet_14: -2677151616653253764
+      DemonioCollarBrazoIzq-Sheet_15: -6233760970360287646
+      DemonioCollarBrazoIzq-Sheet_16: 3125552916257222772
+      DemonioCollarBrazoIzq-Sheet_17: 1844684726451968129
+      DemonioCollarBrazoIzq-Sheet_18: -1929240740113658601
+      DemonioCollarBrazoIzq-Sheet_19: -5018325421403586606
+      DemonioCollarBrazoIzq-Sheet_2: 4261455877302119116
+      DemonioCollarBrazoIzq-Sheet_20: -8342099331237813859
+      DemonioCollarBrazoIzq-Sheet_21: -686846457779518158
+      DemonioCollarBrazoIzq-Sheet_22: 528212910460453616
+      DemonioCollarBrazoIzq-Sheet_23: 4234445986366199799
+      DemonioCollarBrazoIzq-Sheet_24: 6376371690885611453
+      DemonioCollarBrazoIzq-Sheet_3: 7748696811115667271
+      DemonioCollarBrazoIzq-Sheet_4: -1528248674089809611
+      DemonioCollarBrazoIzq-Sheet_5: -1461299771695183261
+      DemonioCollarBrazoIzq-Sheet_6: -789277426982107839
+      DemonioCollarBrazoIzq-Sheet_7: 4565680782561379453
+      DemonioCollarBrazoIzq-Sheet_8: -2117674573341148
+      DemonioCollarBrazoIzq-Sheet_9: -2883967397963340992
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

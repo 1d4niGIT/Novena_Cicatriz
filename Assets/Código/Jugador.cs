@@ -5,6 +5,9 @@ public class Jugador : MonoBehaviour
     public float VidaJugador = 100f;
     public float VidaMaximaJugador = 100f;
     public BarraVida BarraDeVida;
+    public float X;
+    public float Y;
+    public Vector3 Entrada;
 
     private void Start()
     {
@@ -18,12 +21,12 @@ public class Jugador : MonoBehaviour
 
     public void Movimiento()
     {
-        float X = Input.GetAxisRaw("Horizontal");
-        float Y = Input.GetAxisRaw("Vertical");
-        Vector3 Dir = new Vector3(X, Y, 0).normalized;
+        X = Input.GetAxisRaw("Horizontal");
+        Y = Input.GetAxisRaw("Vertical");
+        Entrada = new Vector3(X, Y, 0).normalized;
 
-        if (Dir != Vector3.zero)
-            transform.position += Dir * VelocidadJugador * Time.deltaTime;
+        if (Entrada != Vector3.zero)
+            transform.position += Entrada * VelocidadJugador * Time.deltaTime;
     }
 
     public void DañoRecibidoJugador(float Cantidad)

@@ -72,10 +72,10 @@ public class Enemigo : MonoBehaviour
 
             case EnemigoEnum.Atacar:
                 {
-                    Animacion.SetTrigger("Atacar");
-
+                    Animacion.SetBool("Perseguir", false);
                     if (AtaqueEnemigoDisponible)
                     {
+                        Animacion.SetTrigger("Atacar");
                         ComponenteJugador.DañoRecibidoJugador(DañoEnemigo);
                         AtaqueEnemigoDisponible = false;
                     }

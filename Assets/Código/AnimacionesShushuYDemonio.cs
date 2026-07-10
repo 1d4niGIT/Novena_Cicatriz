@@ -10,6 +10,8 @@ public class AnimacionesShushuYDemonio : MonoBehaviour
     void Start()
     {
         ComponenteJugador = GetComponentInParent<Jugador>();
+        Animacion.SetFloat("X", 0f);
+        Animacion.SetFloat("Y", -1f);
     }
 
     void Update()

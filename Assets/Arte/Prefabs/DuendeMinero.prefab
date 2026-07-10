@@ -515,6 +515,7 @@ MonoBehaviour:
   TiempoMaximoAtaque: 1
   estado: 1
   Animacion: {fileID: 1828598577037526585}
+  Sprite: {fileID: 6485055715058003115}
 --- !u!114 &5380959679043939692
 MonoBehaviour:
   m_ObjectHideFlags: 0

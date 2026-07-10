@@ -6,7 +6,7 @@ public class Enemigo : MonoBehaviour
     public float VidaEnemigo = 50f;
     public float VidaMaximaEnemigo = 50f;
     public float RadioDeteccion = 2f;
-    public float RadioAtaque = 0.2f;
+    public float RadioAtaque = 0.4f;
     public float VelocidadEnemigo = 0.8f;
     public bool AtaqueEnemigoDisponible = true;
     public float DañoEnemigo = 1f;
@@ -18,7 +18,8 @@ public class Enemigo : MonoBehaviour
     private Jugador ComponenteJugador; //Jugador es un tipo de referencia a componente (un script)
     private AparicionAlma ComponenteAparicion;
     public Animator Animacion;
-   
+    public SpriteRenderer Sprite;
+
     void Start()
     {
         Objetivo = GameObject.FindWithTag("Player");
@@ -63,6 +64,8 @@ public class Enemigo : MonoBehaviour
 
                     transform.position += Dir * VelocidadEnemigo * Time.deltaTime;
 
+                    Voltear(Dir.x);
+
                     if (Vector3.Distance(ObjetivoPos, MiPos) > RadioDeteccion) { estado = EnemigoEnum.Idle; }  
 
                     if (Vector3.Distance(ObjetivoPos, MiPos) < RadioAtaque) { estado = EnemigoEnum.Atacar; }
@@ -72,9 +75,9 @@ public class Enemigo : MonoBehaviour
 
             case EnemigoEnum.Atacar:
                 {
-                    Animacion.SetBool("Perseguir", false);
                     if (AtaqueEnemigoDisponible)
                     {
+                        Animacion.SetBool("Perseguir", false);
                         Animacion.SetTrigger("Atacar");
                         ComponenteJugador.DañoRecibidoJugador(DañoEnemigo);
                         AtaqueEnemigoDisponible = false;
@@ -110,5 +113,17 @@ public class Enemigo : MonoBehaviour
     {
         VidaEnemigo -= Cantidad;
         BarraDeVida.ActualizarBarra(VidaEnemigo, VidaMaximaEnemigo);
+    }
+
+    public void Voltear(float DireccionX)
+    {
+        if (DireccionX > 0.1f)
+        {
+            Sprite.flipX = true; 
+        }
+        else if (DireccionX < -0.1f)
+        {
+            Sprite.flipX = false; 
+        }
     }
 }

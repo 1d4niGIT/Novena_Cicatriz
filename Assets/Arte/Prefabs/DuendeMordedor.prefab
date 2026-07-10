@@ -250,6 +250,7 @@ MonoBehaviour:
   TiempoMaximoAtaque: 2
   estado: 1
   Animacion: {fileID: 4913050875156584731}
+  Sprite: {fileID: 8637389149437321533}
 --- !u!50 &7830701722110755534
 Rigidbody2D:
   serializedVersion: 5

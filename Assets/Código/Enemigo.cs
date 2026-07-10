@@ -38,7 +38,7 @@ public class Enemigo : MonoBehaviour
         Vector3 Dir = (ObjetivoPos - MiPos).normalized;
 
         if (!AtaqueEnemigoDisponible)
-            CdAtaqueEnemigo();
+            TiempoAtaqueEnemigo();
 
         if (VidaEnemigo <= 0)
             estado = EnemigoEnum.Morir;
@@ -52,8 +52,8 @@ public class Enemigo : MonoBehaviour
                 {
                     Animacion.SetBool("Perseguir", false);
 
-                    if (Vector3.Distance(ObjetivoPos, MiPos) < RadioDeteccion)
-                        estado = EnemigoEnum.Perseguir;
+                    if (Vector3.Distance(ObjetivoPos, MiPos) < RadioDeteccion) { estado = EnemigoEnum.Perseguir; }
+                        
                 }
                 break;
 
@@ -63,11 +63,10 @@ public class Enemigo : MonoBehaviour
 
                     transform.position += Dir * VelocidadEnemigo * Time.deltaTime;
 
-                    if (Vector3.Distance(ObjetivoPos, MiPos) > RadioDeteccion)
-                        estado = EnemigoEnum.Idle;
+                    if (Vector3.Distance(ObjetivoPos, MiPos) > RadioDeteccion) { estado = EnemigoEnum.Idle; }  
 
-                    if (Vector3.Distance(ObjetivoPos, MiPos) < RadioAtaque)
-                        estado = EnemigoEnum.Atacar;
+                    if (Vector3.Distance(ObjetivoPos, MiPos) < RadioAtaque) { estado = EnemigoEnum.Atacar; }
+                        
                 }
                 break;
 
@@ -81,8 +80,8 @@ public class Enemigo : MonoBehaviour
                         AtaqueEnemigoDisponible = false;
                     }
 
-                    if (Vector3.Distance(ObjetivoPos, MiPos) > RadioAtaque)
-                        estado = EnemigoEnum.Perseguir;
+                    if (Vector3.Distance(ObjetivoPos, MiPos) > RadioAtaque) { estado = EnemigoEnum.Perseguir; }
+                       
                 }
                 break;
 
@@ -98,7 +97,7 @@ public class Enemigo : MonoBehaviour
         }
     }
 
-    public void CdAtaqueEnemigo()
+    public void TiempoAtaqueEnemigo()
     {
         TiempoActual += Time.deltaTime;
         if (TiempoActual >= TiempoMaximoAtaque)

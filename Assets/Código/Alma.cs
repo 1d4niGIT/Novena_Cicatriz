@@ -10,15 +10,27 @@ public class Alma : MonoBehaviour
     public float FuerzaSerpenteo = 1.5f;
     private float Temporizador;
     private float DireccionLateral = 1f;
-    public enum AlmaEnum {None, Idle, Perseguir}
+
+    public enum AlmaEnum {None, Idle, Perseguir, Liberar}
     public AlmaEnum estado = AlmaEnum.Idle;
+
+    public float TiempoHastaLiberarse = 5f;
+    public bool Liberarse = false;
+    private bool ProcesoDeLiberacion = false;
+
+    public float VelocidadSubida = 1.5f;   
+    public float TiempoParaDesaparecer = 1.5f;
     void Start()
     {
         ObjetivoDemonio = GameObject.FindWithTag("CabezaDemonio");
     }
 
-    void FixedUpdate()
+    void Update()
     {
+        if(!Liberarse) 
+        {
+            TiempoParaLiberar();
+        }
         EstadoAlma();
     }
     public void EstadoAlma()
@@ -34,8 +46,9 @@ public class Alma : MonoBehaviour
 
             case AlmaEnum.Idle:
                 {
-                    if (Vector3.Distance(DemonioPos, MiPos) < RadioDeteccion)
-                        estado = AlmaEnum.Perseguir;
+                    if (Vector3.Distance(DemonioPos, MiPos) < RadioDeteccion) { estado = AlmaEnum.Perseguir; }
+
+                    if (Liberarse) { estado = AlmaEnum.Liberar; }
                 }
                 break;
 
@@ -55,13 +68,39 @@ public class Alma : MonoBehaviour
 
                     transform.position += MovimientoFinal * Time.deltaTime;
 
-                    if (Vector3.Distance(DemonioPos, MiPos) > RadioDeteccion)
-                        estado = AlmaEnum.Idle;
+                    if (Vector3.Distance(DemonioPos, MiPos) > RadioDeteccion) { estado = AlmaEnum.Idle; }
+
+                    if (Liberarse) { estado = AlmaEnum.Liberar; }
+
+                }
+                break;
+
+            case AlmaEnum.Liberar:
+                {
+
+                    if (!ProcesoDeLiberacion)
+                    {
+                        ProcesoDeLiberacion = true;
+                        Destroy(gameObject, TiempoParaDesaparecer);
+                    }
+
+                    transform.position += Vector3.up * VelocidadSubida * Time.deltaTime;
+
                 }
                 break;
 
             default:
                 break;
         }
+    }
+
+    public void TiempoParaLiberar()
+    {
+        TiempoHastaLiberarse -= Time.deltaTime;
+        if (TiempoHastaLiberarse < 0 )
+        {
+            Liberarse = true;
+        }
+          
     }
 }

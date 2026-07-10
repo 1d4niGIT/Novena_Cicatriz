@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 8232922595255434753}
   - component: {fileID: 5884917344616583177}
   - component: {fileID: 1225152315420844069}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: BarraInterfazEnemigo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -128,7 +128,7 @@ GameObject:
   - component: {fileID: 1717076356536707317}
   - component: {fileID: 6485055715058003115}
   - component: {fileID: 1828598577037526585}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: SpriteDuendeMinero
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -242,7 +242,7 @@ GameObject:
   - component: {fileID: 675282778993068994}
   - component: {fileID: 5128732056440669521}
   - component: {fileID: 2688655792065254721}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: RellenoBarraEnemigo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -317,7 +317,7 @@ GameObject:
   - component: {fileID: 2867001352818726434}
   - component: {fileID: 6099396564177027573}
   - component: {fileID: 1924638536877361151}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: BarraEnemigo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -394,7 +394,7 @@ GameObject:
   - component: {fileID: 8219555291166260898}
   - component: {fileID: 6399018067795401275}
   - component: {fileID: 5380959679043939692}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: DuendeMinero
   m_TagString: Enemigo
   m_Icon: {fileID: 0}

@@ -388,7 +388,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 211898342}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: DemonioCollar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -511,7 +511,7 @@ GameObject:
   - component: {fileID: 327344186}
   - component: {fileID: 327344185}
   - component: {fileID: 327344187}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BrazoDER_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -653,7 +653,7 @@ GameObject:
   - component: {fileID: 389091750}
   - component: {fileID: 389091749}
   - component: {fileID: 389091751}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cuerpo_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -794,7 +794,7 @@ GameObject:
   - component: {fileID: 398960884}
   - component: {fileID: 398960885}
   - component: {fileID: 398960886}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SpriteShushu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1325,7 +1325,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5606127865454350981, guid: 7b37a07593f869b4aabc4f7b0b7c809c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.8525726
+      value: -1.852573
       objectReference: {fileID: 0}
     - target: {fileID: 5606127865454350981, guid: 7b37a07593f869b4aabc4f7b0b7c809c, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2150,7 +2150,7 @@ GameObject:
   - component: {fileID: 771162639}
   - component: {fileID: 771162641}
   - component: {fileID: 771162640}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Shushu
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -2368,7 +2368,7 @@ GameObject:
   m_Component:
   - component: {fileID: 823165281}
   - component: {fileID: 823165282}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cabeza_0
   m_TagString: CabezaDemonio
   m_Icon: {fileID: 0}
@@ -3581,7 +3581,7 @@ GameObject:
   - component: {fileID: 1342302876}
   - component: {fileID: 1342302877}
   - component: {fileID: 1342302878}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BrazoIZQ_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4587,7 +4587,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1711813066}
   - component: {fileID: 1711813067}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: "Punto de aparici\xF3n"
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5790544807872240330}
   - component: {fileID: 1366500787880346728}
   - component: {fileID: 5739165733935852711}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: BarraEnemigo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -86,7 +86,7 @@ GameObject:
   - component: {fileID: 4689305138441142262}
   - component: {fileID: 8637389149437321533}
   - component: {fileID: 4913050875156584731}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: SpriteDuendeMordedor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -202,7 +202,7 @@ GameObject:
   - component: {fileID: 7830701722110755534}
   - component: {fileID: -7614218159101638942}
   - component: {fileID: 3496876382134094608}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: DuendeMordedor
   m_TagString: Enemigo
   m_Icon: {fileID: 0}
@@ -349,7 +349,7 @@ GameObject:
   - component: {fileID: 5478525696653634921}
   - component: {fileID: 1758408286478636342}
   - component: {fileID: 7455727330034050535}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: BarraInterfazEnemigo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -464,7 +464,7 @@ GameObject:
   - component: {fileID: 2888522459183824534}
   - component: {fileID: 3431546007253554126}
   - component: {fileID: 68195999614099040}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: RellenoBarraEnemigo
   m_TagString: Untagged
   m_Icon: {fileID: 0}

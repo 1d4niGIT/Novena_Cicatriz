@@ -8,6 +8,8 @@ public class Jugador : MonoBehaviour
     public float X;
     public float Y;
     public Vector3 Entrada;
+    public float SaciedadActual = 0f;
+    public float SaciedadMaxima = 100f;
 
     private void Start()
     {

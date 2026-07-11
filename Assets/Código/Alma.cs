@@ -20,6 +20,8 @@ public class Alma : MonoBehaviour
 
     public float VelocidadSubida = 1.5f;   
     public float TiempoParaDesaparecer = 1.5f;
+
+    public BarraVida BarraDemonio;
     void Start()
     {
         ObjetivoDemonio = GameObject.FindWithTag("CabezaDemonio");
@@ -102,5 +104,16 @@ public class Alma : MonoBehaviour
             Liberarse = true;
         }
           
+    }
+
+    private void OnTriggerEnter2D(Collider2D Colisionador)
+    {
+        if (Colisionador.CompareTag("CabezaDemonio"))
+        {
+            Jugador ComponenteJugador = GetComponent<Jugador>();
+            ComponenteJugador.SaciedadActual += 2;
+            BarraDemonio.ActualizarBarra(ComponenteJugador.SaciedadActual, ComponenteJugador.SaciedadMaxima);
+            Destroy(gameObject);
+        }
     }
 }

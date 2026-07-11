@@ -19,7 +19,6 @@ public class AtaqueRango : MonoBehaviour
             ComponenteEnemigo.DañoRecibidoEnemigo(DañoRango);
             Destroy(gameObject);
         }
-        
     }
 
     void Update()

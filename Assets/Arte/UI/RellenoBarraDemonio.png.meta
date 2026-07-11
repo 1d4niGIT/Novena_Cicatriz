@@ -103,9 +103,9 @@ TextureImporter:
       name: RellenoBarraDemonio_0
       rect:
         serializedVersion: 2
-        x: 11
+        x: 9
         y: 5
-        width: 25
+        width: 27
         height: 27
       alignment: 0
       pivot: {x: 0, y: 0}

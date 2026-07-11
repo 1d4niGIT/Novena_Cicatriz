@@ -25,6 +25,22 @@ public class Alma : MonoBehaviour
     void Start()
     {
         ObjetivoDemonio = GameObject.FindWithTag("CabezaDemonio");
+
+        if (BarraDemonio == null)
+        {
+            GameObject ObjetoBarraDemonio = GameObject.Find("BarraDemonio");
+
+            if (ObjetoBarraDemonio != null)
+            {
+                BarraDemonio = ObjetoBarraDemonio.GetComponent<BarraVida>();
+
+                Debug.Log("BarraDemonio encontrada por código: " + (BarraDemonio != null));
+            }
+            else
+            {
+                Debug.Log("No se encontró ningún GameObject llamado 'BarraDemonio' en la escena");
+            }
+        }
     }
 
     void Update()
@@ -61,7 +77,7 @@ public class Alma : MonoBehaviour
 
                     if (Temporizador >= TiempoCambioDireccion)
                     {
-                        DireccionLateral *= -1f; // invierte el lado
+                        DireccionLateral *= -1f; // Invierte el lado
                         Temporizador = 0f;
                     }
 
@@ -110,10 +126,26 @@ public class Alma : MonoBehaviour
     {
         if (Colisionador.CompareTag("CabezaDemonio"))
         {
-            Jugador ComponenteJugador = GetComponent<Jugador>();
-            ComponenteJugador.SaciedadActual += 2;
-            BarraDemonio.ActualizarBarra(ComponenteJugador.SaciedadActual, ComponenteJugador.SaciedadMaxima);
-            Destroy(gameObject);
+            GameObject ObjetoJugador = GameObject.FindWithTag("Player");
+            Jugador ComponenteJugador = ObjetoJugador != null ? ObjetoJugador.GetComponent<Jugador>() : null;
+
+            if (ComponenteJugador != null)
+            {
+                ComponenteJugador.SaciedadActual += 2;
+                Debug.Log("Saciedad actualizada a: " + ComponenteJugador.SaciedadActual);
+
+                if (BarraDemonio != null)
+                {
+                    BarraDemonio.ActualizarBarra(ComponenteJugador.SaciedadActual, ComponenteJugador.SaciedadMaxima);
+                }
+               
+            }
+            else
+            {
+                Debug.Log("No se encontró el GameObject con Tag 'Player' o el componente Jugador en él");
+            }
+
+                Destroy(gameObject);
         }
     }
 }

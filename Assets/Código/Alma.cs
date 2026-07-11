@@ -131,7 +131,7 @@ public class Alma : MonoBehaviour
 
             if (ComponenteJugador != null)
             {
-                ComponenteJugador.SaciedadActual += 2;
+                ComponenteJugador.SaciedadActual += 10;
                 Debug.Log("Saciedad actualizada a: " + ComponenteJugador.SaciedadActual);
 
                 if (BarraDemonio != null)

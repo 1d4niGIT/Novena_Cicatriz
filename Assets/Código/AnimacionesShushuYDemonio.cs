@@ -42,7 +42,7 @@ public class AnimacionesShushuYDemonio : MonoBehaviour
     public void VerificarMuerte()
     {
         {
-            if ((ComponenteJugador.VidaJugador <= 0) && (!EstaMuerto))
+            if (((ComponenteJugador.VidaJugador <= 0) || ComponenteJugador.SaciedadActual>= 100) && (!EstaMuerto))
             {
                 Animacion.SetTrigger("Muerto");
                 EstaMuerto = true;

@@ -22,6 +22,8 @@ public class Alma : MonoBehaviour
     public float TiempoParaDesaparecer = 1.5f;
 
     public BarraVida BarraDemonio;
+
+    public ContadorAlmas ContadorDeAlmas;
     void Start()
     {
         ObjetivoDemonio = GameObject.FindWithTag("CabezaDemonio");
@@ -33,12 +35,15 @@ public class Alma : MonoBehaviour
             if (ObjetoBarraDemonio != null)
             {
                 BarraDemonio = ObjetoBarraDemonio.GetComponent<BarraVida>();
-
-                Debug.Log("BarraDemonio encontrada por código: " + (BarraDemonio != null));
             }
-            else
+        }
+
+        if (ContadorDeAlmas == null)
+        {
+            GameObject ObjetoContador = GameObject.Find("ContadorDeAlmas");
+            if (ObjetoContador != null)
             {
-                Debug.Log("No se encontró ningún GameObject llamado 'BarraDemonio' en la escena");
+                ContadorDeAlmas = ObjetoContador.GetComponent<ContadorAlmas>();
             }
         }
     }
@@ -100,6 +105,11 @@ public class Alma : MonoBehaviour
                     {
                         ProcesoDeLiberacion = true;
                         Destroy(gameObject, TiempoParaDesaparecer);
+
+                        if (ContadorDeAlmas != null)
+                        {
+                            ContadorDeAlmas.AgregarAlma();
+                        }
                     }
 
                     transform.position += Vector3.up * VelocidadSubida * Time.deltaTime;
@@ -132,20 +142,16 @@ public class Alma : MonoBehaviour
             if (ComponenteJugador != null)
             {
                 ComponenteJugador.SaciedadActual += 10;
-                Debug.Log("Saciedad actualizada a: " + ComponenteJugador.SaciedadActual);
 
                 if (BarraDemonio != null)
                 {
                     BarraDemonio.ActualizarBarra(ComponenteJugador.SaciedadActual, ComponenteJugador.SaciedadMaxima);
                 }
-               
-            }
-            else
-            {
-                Debug.Log("No se encontró el GameObject con Tag 'Player' o el componente Jugador en él");
+
             }
 
-                Destroy(gameObject);
+            Destroy(gameObject);
+
         }
     }
 }

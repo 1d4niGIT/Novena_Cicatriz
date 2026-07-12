@@ -2614,8 +2614,9 @@ GameObject:
   - component: {fileID: 861098093}
   - component: {fileID: 861098095}
   - component: {fileID: 861098094}
+  - component: {fileID: 861098096}
   m_Layer: 5
-  m_Name: Alma
+  m_Name: ContadorDeAlmas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2635,10 +2636,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 690057155}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 579.2513, y: -268.01276}
-  m_SizeDelta: {x: 46.0137, y: 63.9671}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -650.6, y: 449.6}
+  m_SizeDelta: {x: 176.377, y: 69.8245}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &861098094
 MonoBehaviour:
@@ -2660,9 +2661,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -7726712736494530424, guid: a678fa26e35898945a24d63f36d6402c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a678fa26e35898945a24d63f36d6402c, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -2678,6 +2679,24 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 861098092}
   m_CullTransparentMesh: 1
+--- !u!114 &861098096
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 861098092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7fa2e941500b924f8a0b8a169136338, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ContadorAlmas
+  IconoAlmas: {fileID: 861098094}
+  Sprite1Alma: {fileID: 21300000, guid: a678fa26e35898945a24d63f36d6402c, type: 3}
+  Sprite2Almas: {fileID: 21300000, guid: 6f994f82a30592a47955c4642c5addde, type: 3}
+  Sprite3Almas: {fileID: 21300000, guid: 2ac6d0f90cf01a2438a2092a6c21eb96, type: 3}
+  AlmasSalvadas: 0
+  MaximoAlmas: 3
 --- !u!1 &901825065
 GameObject:
   m_ObjectHideFlags: 0
@@ -4856,7 +4875,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: -13.900024, y: 4.949707}
+  m_AnchoredPosition: {x: -13.899902, y: 4.949707}
   m_SizeDelta: {x: 900.1724, y: 425.6877}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1883809405

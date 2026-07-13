@@ -133,11 +133,10 @@ public class Alma : MonoBehaviour
     public void TiempoParaLiberar()
     {
         TiempoHastaLiberarse -= Time.deltaTime;
-        if (TiempoHastaLiberarse < 0 )
+        if (TiempoHastaLiberarse < 0)
         {
             Liberarse = true;
-        }
-          
+        } 
     }
 
     private void OnTriggerEnter2D(Collider2D Colisionador)

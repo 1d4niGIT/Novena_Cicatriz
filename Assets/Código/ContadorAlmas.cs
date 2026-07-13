@@ -11,7 +11,6 @@ public class ContadorAlmas : MonoBehaviour
     public int MaximoAlmas = 3;
     void Start()
     {
-        Debug.Log("ContadorAlmas Start() ejecutado");
         ActualizarIcono();
     }
 
@@ -22,11 +21,9 @@ public class ContadorAlmas : MonoBehaviour
 
     public void AgregarAlma()
     {
-        Debug.Log("AgregarAlma() llamado. AlmasGuardadas antes: " + AlmasSalvadas);
         if (AlmasSalvadas < MaximoAlmas)
         {
             AlmasSalvadas++;
-            Debug.Log("AlmasGuardadas ahora: " + AlmasSalvadas);
             ActualizarIcono();
         }
         else
@@ -39,7 +36,6 @@ public class ContadorAlmas : MonoBehaviour
 
     private void ActualizarIcono()
     {
-        Debug.Log("ActualizarIcono() ejecutado con AlmasGuardadas = " + AlmasSalvadas);
         switch (AlmasSalvadas)
         {
             case 0:
@@ -51,21 +47,18 @@ public class ContadorAlmas : MonoBehaviour
 
                 IconoAlmas.enabled = true;
                 IconoAlmas.sprite = Sprite1Alma;
-                Debug.Log("Asignando Sprite1Alma: " + (Sprite1Alma != null));
                 break;
 
             case 2:
 
                 IconoAlmas.enabled = true;
                 IconoAlmas.sprite = Sprite2Almas;
-                Debug.Log("Asignando Sprite2Almas: " + (Sprite2Almas != null));
                 break;
 
             case 3:
 
                 IconoAlmas.enabled = true;
                 IconoAlmas.sprite = Sprite3Almas;
-                Debug.Log("Asignando Sprite3Almas: " + (Sprite3Almas != null));
                 break;
 
         }

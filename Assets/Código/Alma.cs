@@ -3,7 +3,7 @@ using UnityEngine;
 public class Alma : MonoBehaviour
 {
     public GameObject ObjetivoDemonio;
-    public float VelocidadAlma = 0.5f;
+    public float VelocidadAlma = 0.7f;
     public float RadioDeteccion = 3f;
 
     public float TiempoCambioDireccion = 0.5f; // Cada cuánto cambia de lado
@@ -24,10 +24,26 @@ public class Alma : MonoBehaviour
     public BarraVida BarraDemonio;
 
     public ContadorAlmas ContadorDeAlmas;
+
+    public Animator Animacion;
     void Start()
     {
+        Animacion.SetBool("Alma", true);
         ObjetivoDemonio = GameObject.FindWithTag("CabezaDemonio");
+        BuscarReferenciasFaltantes();
+    }
 
+    void Update()
+    {
+        if(!Liberarse) 
+        {
+            TiempoParaLiberar();
+        }
+        EstadoAlma();
+    }
+
+    public void BuscarReferenciasFaltantes()
+    {
         if (BarraDemonio == null)
         {
             GameObject ObjetoBarraDemonio = GameObject.Find("BarraDemonio");
@@ -48,14 +64,6 @@ public class Alma : MonoBehaviour
         }
     }
 
-    void Update()
-    {
-        if(!Liberarse) 
-        {
-            TiempoParaLiberar();
-        }
-        EstadoAlma();
-    }
     public void EstadoAlma()
     {
         Vector3 DemonioPos = ObjetivoDemonio.transform.position;

@@ -3,12 +3,14 @@ using UnityEngine;
 
 public class AtaqueRango : MonoBehaviour
 {
-    public float VelocidadProyectil = 3f;
+    public float VelocidadProyectil = 2f;
     public float TiempoVivo = 3f;
     public float DañoRango = 5f;
+    public Animator Animacion;
     
     void Start()
     {
+        Animacion.SetBool("AtaqueRango", true);
         Destroy(gameObject, TiempoVivo);
     }
     private void OnTriggerEnter2D(Collider2D Colisionador)

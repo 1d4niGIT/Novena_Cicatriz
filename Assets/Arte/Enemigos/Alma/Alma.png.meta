@@ -1,10 +1,16 @@
 fileFormatVersion: 2
-guid: eca734dfdeffb0c4eb5adba3dddabef9
+guid: 7ea57e224c924fc499032176a8c7351b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6111063513612684593
-    second: "Men\xFAPrincipalArte_0"
+      213: -1999626521270423069
+    second: Alma_0
+  - first:
+      213: 5221207169382905450
+    second: Alma_1
+  - first:
+      213: -665331118321366698
+    second: Alma_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -72,7 +78,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 4096
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: 4
     textureCompression: 0
@@ -100,13 +106,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "Men\xFAPrincipalArte_0"
+      name: Alma_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 5120
-        height: 2880
+        x: 12
+        y: 9
+        width: 10
+        height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +121,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 13d0cb843ebdec450800000000000000
-      internalID: 6111063513612684593
+      spriteID: 3e1f93cf546ef34e0800000000000000
+      internalID: -1999626521270423069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alma_1
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 9
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a667ac5e144757840800000000000000
+      internalID: 5221207169382905450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alma_2
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 9
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 659017a7fd444c6f0800000000000000
+      internalID: -665331118321366698
       vertices: []
       indices: 
       edges: []
@@ -135,7 +185,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      "Men\xFAPrincipalArte_0": 6111063513612684593
+      Alma_0: -1999626521270423069
+      Alma_1: 5221207169382905450
+      Alma_2: -665331118321366698
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

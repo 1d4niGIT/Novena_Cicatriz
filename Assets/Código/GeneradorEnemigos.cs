@@ -36,11 +36,7 @@ public class GeneradorEnemigos : MonoBehaviour
         Vector3 LargoTotalDireccion = DirAleatorio * Random.Range(0.5f, Rango);
         GameObject enemigo = Instantiate(EnemigoPrefab, transform.position, Quaternion.identity);
         enemigo.transform.position += LargoTotalDireccion;
-        enemigo.transform.localScale = new Vector3(0.5f, 0.5f, 0.5f);
-        
-    
-        //->A
-        // enemy.transform.position = LargoTotalDireccion;//->B
+        enemigo.transform.localScale = new Vector3(1f, 1f, 1f);
 
     }
 }

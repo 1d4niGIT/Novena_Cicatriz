@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: eca734dfdeffb0c4eb5adba3dddabef9
+guid: 4f63fba83a5ed5e40b94f5d3ca6d343b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6111063513612684593
-    second: "Men\xFAPrincipalArte_0"
+      213: -5971203757246886667
+    second: Palo_0
+  - first:
+      213: -6936555133606564356
+    second: Palo_1
+  - first:
+      213: -6193028409826870391
+    second: Palo_2
+  - first:
+      213: 3801188609194631785
+    second: Palo_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +55,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -72,7 +81,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 4096
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: 4
     textureCompression: 0
@@ -100,13 +109,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "Men\xFAPrincipalArte_0"
+      name: Palo_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 5120
-        height: 2880
+        x: 4
+        y: 45
+        width: 11
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +124,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 13d0cb843ebdec450800000000000000
-      internalID: 6111063513612684593
+      spriteID: 5fc42dfc1d5022da0800000000000000
+      internalID: -5971203757246886667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Palo_1
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 46
+        width: 11
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfde7708bd76cbf90800000000000000
+      internalID: -6936555133606564356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Palo_2
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1
+        width: 11
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98bfd5c2971fd0aa0800000000000000
+      internalID: -6193028409826870391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Palo_3
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 0
+        width: 11
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 962ae4786e880c430800000000000000
+      internalID: 3801188609194631785
       vertices: []
       indices: 
       edges: []
@@ -125,7 +200,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +210,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      "Men\xFAPrincipalArte_0": 6111063513612684593
+      Palo_0: -5971203757246886667
+      Palo_1: -6936555133606564356
+      Palo_2: -6193028409826870391
+      Palo_3: 3801188609194631785
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

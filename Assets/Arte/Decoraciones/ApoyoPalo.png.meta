@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: eca734dfdeffb0c4eb5adba3dddabef9
+guid: 9e64d1c146a1cd74f9eed5816a3d9af7
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6111063513612684593
-    second: "Men\xFAPrincipalArte_0"
+      213: -3152915953283272623
+    second: ApoyoPalo_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -72,7 +72,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 4096
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: 4
     textureCompression: 0
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "Men\xFAPrincipalArte_0"
+      name: ApoyoPalo_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 5120
-        height: 2880
+        x: 1
+        y: 2
+        width: 30
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 13d0cb843ebdec450800000000000000
-      internalID: 6111063513612684593
+      spriteID: 15073e535a79e34d0800000000000000
+      internalID: -3152915953283272623
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      "Men\xFAPrincipalArte_0": 6111063513612684593
+      ApoyoPalo_0: -3152915953283272623
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -505,7 +505,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Enemigo
   VidaEnemigo: 100
   VidaMaximaEnemigo: 100
-  RadioDeteccion: 1.5
+  RadioDeteccion: 1.7
   RadioAtaque: 0.4
   VelocidadEnemigo: 1.1
   AtaqueEnemigoDisponible: 1

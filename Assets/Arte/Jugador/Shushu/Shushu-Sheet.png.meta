@@ -287,7 +287,7 @@ TextureImporter:
       name: Shushu-Sheet_4
       rect:
         serializedVersion: 2
-        x: 471
+        x: 383
         y: 11
         width: 27
         height: 72
@@ -309,7 +309,7 @@ TextureImporter:
       name: Shushu-Sheet_5
       rect:
         serializedVersion: 2
-        x: 547
+        x: 459
         y: 11
         width: 48
         height: 79
@@ -331,7 +331,7 @@ TextureImporter:
       name: Shushu-Sheet_6
       rect:
         serializedVersion: 2
-        x: 626
+        x: 538
         y: 11
         width: 65
         height: 85
@@ -353,7 +353,7 @@ TextureImporter:
       name: Shushu-Sheet_7
       rect:
         serializedVersion: 2
-        x: 717
+        x: 629
         y: 11
         width: 59
         height: 81
@@ -375,7 +375,7 @@ TextureImporter:
       name: Shushu-Sheet_8
       rect:
         serializedVersion: 2
-        x: 809
+        x: 721
         y: 10
         width: 53
         height: 79
@@ -397,7 +397,7 @@ TextureImporter:
       name: Shushu-Sheet_9
       rect:
         serializedVersion: 2
-        x: 899
+        x: 811
         y: 13
         width: 50
         height: 68
@@ -419,7 +419,7 @@ TextureImporter:
       name: Shushu-Sheet_10
       rect:
         serializedVersion: 2
-        x: 987
+        x: 899
         y: 13
         width: 50
         height: 65
@@ -441,7 +441,7 @@ TextureImporter:
       name: Shushu-Sheet_11
       rect:
         serializedVersion: 2
-        x: 1088
+        x: 1000
         y: 9
         width: 23
         height: 74
@@ -463,7 +463,7 @@ TextureImporter:
       name: Shushu-Sheet_12
       rect:
         serializedVersion: 2
-        x: 1176
+        x: 1088
         y: 9
         width: 23
         height: 73
@@ -485,7 +485,7 @@ TextureImporter:
       name: Shushu-Sheet_13
       rect:
         serializedVersion: 2
-        x: 1264
+        x: 1176
         y: 9
         width: 23
         height: 74
@@ -507,7 +507,7 @@ TextureImporter:
       name: Shushu-Sheet_14
       rect:
         serializedVersion: 2
-        x: 1352
+        x: 1264
         y: 9
         width: 23
         height: 73
@@ -529,7 +529,7 @@ TextureImporter:
       name: Shushu-Sheet_15
       rect:
         serializedVersion: 2
-        x: 1439
+        x: 1351
         y: 11
         width: 27
         height: 71
@@ -551,7 +551,7 @@ TextureImporter:
       name: Shushu-Sheet_16
       rect:
         serializedVersion: 2
-        x: 1527
+        x: 1439
         y: 11
         width: 27
         height: 70
@@ -573,7 +573,7 @@ TextureImporter:
       name: Shushu-Sheet_17
       rect:
         serializedVersion: 2
-        x: 1615
+        x: 1527
         y: 8
         width: 27
         height: 74
@@ -595,7 +595,7 @@ TextureImporter:
       name: Shushu-Sheet_18
       rect:
         serializedVersion: 2
-        x: 1703
+        x: 1615
         y: 10
         width: 27
         height: 73
@@ -617,7 +617,7 @@ TextureImporter:
       name: Shushu-Sheet_19
       rect:
         serializedVersion: 2
-        x: 1791
+        x: 1703
         y: 8
         width: 27
         height: 74
@@ -639,7 +639,7 @@ TextureImporter:
       name: Shushu-Sheet_20
       rect:
         serializedVersion: 2
-        x: 1879
+        x: 1791
         y: 11
         width: 27
         height: 72
@@ -661,7 +661,7 @@ TextureImporter:
       name: Shushu-Sheet_21
       rect:
         serializedVersion: 2
-        x: 1968
+        x: 1880
         y: 14
         width: 25
         height: 69
@@ -683,7 +683,7 @@ TextureImporter:
       name: Shushu-Sheet_22
       rect:
         serializedVersion: 2
-        x: 2056
+        x: 1968
         y: 12
         width: 23
         height: 70
@@ -705,7 +705,7 @@ TextureImporter:
       name: Shushu-Sheet_23
       rect:
         serializedVersion: 2
-        x: 2144
+        x: 2056
         y: 12
         width: 23
         height: 71
@@ -727,7 +727,7 @@ TextureImporter:
       name: Shushu-Sheet_24
       rect:
         serializedVersion: 2
-        x: 2232
+        x: 2144
         y: 12
         width: 23
         height: 70
@@ -749,7 +749,7 @@ TextureImporter:
       name: Shushu-Sheet_25
       rect:
         serializedVersion: 2
-        x: 2319
+        x: 2231
         y: 14
         width: 25
         height: 69
@@ -771,7 +771,7 @@ TextureImporter:
       name: Shushu-Sheet_26
       rect:
         serializedVersion: 2
-        x: 2409
+        x: 2321
         y: 12
         width: 23
         height: 70
@@ -793,7 +793,7 @@ TextureImporter:
       name: Shushu-Sheet_27
       rect:
         serializedVersion: 2
-        x: 2497
+        x: 2409
         y: 12
         width: 23
         height: 71
@@ -815,7 +815,7 @@ TextureImporter:
       name: Shushu-Sheet_28
       rect:
         serializedVersion: 2
-        x: 2585
+        x: 2497
         y: 12
         width: 23
         height: 70
@@ -837,7 +837,7 @@ TextureImporter:
       name: Shushu-Sheet_29
       rect:
         serializedVersion: 2
-        x: 2671
+        x: 2583
         y: 11
         width: 27
         height: 71
@@ -859,7 +859,7 @@ TextureImporter:
       name: Shushu-Sheet_30
       rect:
         serializedVersion: 2
-        x: 2759
+        x: 2671
         y: 11
         width: 27
         height: 70
@@ -881,7 +881,7 @@ TextureImporter:
       name: Shushu-Sheet_31
       rect:
         serializedVersion: 2
-        x: 2847
+        x: 2759
         y: 11
         width: 27
         height: 71
@@ -903,7 +903,7 @@ TextureImporter:
       name: Shushu-Sheet_32
       rect:
         serializedVersion: 2
-        x: 2935
+        x: 2847
         y: 11
         width: 27
         height: 70

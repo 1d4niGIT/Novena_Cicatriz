@@ -15,7 +15,8 @@ public class Jugador : MonoBehaviour
 
     private void Start()
     {
-        
+        UltimaX = 0f;
+        UltimaY = -1f;
     }
 
     void Update()

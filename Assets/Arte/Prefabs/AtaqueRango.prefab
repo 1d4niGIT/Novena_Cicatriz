@@ -127,7 +127,7 @@ GameObject:
   - component: {fileID: 353019423880154532}
   - component: {fileID: 3036711429643263191}
   m_Layer: 0
-  m_Name: Proyectil
+  m_Name: AtaqueRango
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -163,7 +163,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::AtaqueRango
   VelocidadProyectil: 2
   TiempoVivo: 3
-  "Da\xF1oRango": 10
+  "Da\xF1oRango": 8
   Animacion: {fileID: 4321990974546610096}
 --- !u!61 &353019423880154532
 BoxCollider2D:

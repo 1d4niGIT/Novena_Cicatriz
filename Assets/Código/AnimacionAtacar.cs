@@ -17,12 +17,12 @@ public class AnimacionAtacar : MonoBehaviour
             AnimarAtaque(ComponenteJugador.UltimaX, ComponenteJugador.UltimaY);
         }
     }
+
     private void AnimarAtaque(float X, float Y)
     {
         Animacion.SetFloat("X", X);
         Animacion.SetFloat("Y", Y);
+        Animacion.ResetTrigger("Atacando");
         Animacion.SetTrigger("Atacando");
-
-
     }
 }

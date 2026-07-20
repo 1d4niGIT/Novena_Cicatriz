@@ -5,7 +5,7 @@ public class AtaqueRango : MonoBehaviour
 {
     public float VelocidadProyectil = 2f;
     public float TiempoVivo = 3f;
-    public float DañoRango = 10f;
+    public float DañoRango = 8f;
     public Animator Animacion;
     
     void Start()

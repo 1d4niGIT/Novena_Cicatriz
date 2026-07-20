@@ -7517,6 +7517,7 @@ GameObject:
   - component: {fileID: 1342302876}
   - component: {fileID: 1342302877}
   - component: {fileID: 1342302878}
+  - component: {fileID: 1342302879}
   m_Layer: 6
   m_Name: BrazoIZQ_0
   m_TagString: Untagged
@@ -7646,6 +7647,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AnimacionAtacar
   Animacion: {fileID: 1342302876}
+--- !u!114 &1342302879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1342302873}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d777bae5c3ef5bd4b887b9c91471ca36, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InstanciadorAtaqueMelee
+  PrefabAtaqueMelee: {fileID: 1042422839134262567, guid: 42193661ef0ba8f4389117feed034f1d, type: 3}
+  DistanciaAtaque: 0.3
 --- !u!1 &1354279865
 GameObject:
   m_ObjectHideFlags: 0

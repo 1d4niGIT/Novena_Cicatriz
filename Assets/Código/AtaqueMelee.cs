@@ -1,37 +1,22 @@
 using UnityEngine;
+using System.Collections.Generic;
 
 public class AtaqueMelee : MonoBehaviour
 {
     public float Daño = 10f;
-    private bool YaGolpeo = false;
-    void Start()
-    {
-        
-    }
-
-    void Update()
-    {
-        
-    }
+    private HashSet<Enemigo> EnemigosGolpeados = new HashSet<Enemigo>();
 
     void OnTriggerEnter2D(Collider2D Colisionador)
     {
-        if (YaGolpeo) return;
-
         if (Colisionador.CompareTag("Enemigo"))
         {
             Enemigo ComponenteEnemigo = Colisionador.GetComponent<Enemigo>();
-            if (ComponenteEnemigo != null)
+            if (ComponenteEnemigo != null && !EnemigosGolpeados.Contains(ComponenteEnemigo))
             {
                 ComponenteEnemigo.DañoRecibidoEnemigo(Daño);
-                YaGolpeo = true;
+                EnemigosGolpeados.Add(ComponenteEnemigo);
             }
         }
-    }
-
-    public void Destruir()
-    {
-        Destroy(gameObject);
     }
 
 }

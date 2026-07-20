@@ -3,21 +3,26 @@ using UnityEngine;
 public class AnimacionAtacar : MonoBehaviour
 {
     public Animator Animacion;
+    private Jugador ComponenteJugador;
 
     void Start()
     {
-        
+        ComponenteJugador = GetComponentInParent<Jugador>();
     }
 
     void Update()
     {
-        AnimarAtaque();
-    }
-    private void AnimarAtaque()
-    {
         if (Input.GetMouseButtonDown(1))
         {
-            Animacion.SetTrigger("Atacando");
+            AnimarAtaque(ComponenteJugador.UltimaX, ComponenteJugador.UltimaY);
         }
+    }
+    private void AnimarAtaque(float X, float Y)
+    {
+        Animacion.SetFloat("X", X);
+        Animacion.SetFloat("Y", Y);
+        Animacion.SetTrigger("Atacando");
+
+
     }
 }

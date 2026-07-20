@@ -7,6 +7,8 @@ public class Jugador : MonoBehaviour
     public BarraVida BarraDeVida;
     public float X;
     public float Y;
+    public float UltimaX;
+    public float UltimaY;
     public Vector3 Entrada;
     public float SaciedadActual = 0f;
     public float SaciedadMaxima = 100f;
@@ -25,6 +27,13 @@ public class Jugador : MonoBehaviour
     {
         X = Input.GetAxisRaw("Horizontal");
         Y = Input.GetAxisRaw("Vertical");
+
+        if (X != 0 || Y != 0)
+        {
+            UltimaX = X;
+            UltimaY = Y;
+        }
+
         Entrada = new Vector3(X, Y, 0).normalized;
 
         if (Entrada != Vector3.zero)
